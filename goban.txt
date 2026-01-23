@@ -1,0 +1,452 @@
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Mentor's Recommendation from Company
+
+I am pleased to provide my enthusiastic recommendation for BAL GOBIND CHAUDHARY based on his exceptional performance during his internship at Sajilo Digital Pvt. Ltd. As his mentor, I supervised his work on the development of the Mount Glacier Trek adventure tourism website, where he served as a Full Stack Developer.
+
+Throughout his internship, Bal Gobind demonstrated remarkable versatility and technical depth, successfully handling both frontend and backend development responsibilities. He played a pivotal role in building a comprehensive booking and information platform for trekking services, showcasing proficiency in ReactJS for the frontend and Node.js with Express for the backend.
+
+Bal Gobind exhibited strong problem-solving skills, architectural thinking, and the ability to integrate complex systems including payment processing, booking management, and user authentication. His attention to detail in both user interface implementation and server-side logic was commendable. He consistently delivered robust, scalable solutions and showed excellent initiative in optimizing both application performance and database design.
+
+His collaborative approach, willingness to take ownership of challenging tasks, and commitment to delivering production-ready code made him an invaluable member of our development team.
+
+I hereby endorse the internship report entitled "Full Stack Development of Mount Glacier Trek Adventure Tourism Platform" prepared by Bal Gobind Chaudhary under my supervision. This project comprehensively demonstrates his capabilities and satisfactorily fulfills the practical requirements for the Bachelor of Science in Computer Science and Information Technology degree. I highly recommend it for evaluation.
+
+Mr. Shailesh Mishra
+Project Mentor
+Sajilo Digital Pvt. Ltd.
+Bhairahawa, Nepal
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Supervisor's Recommendation
+
+This is to certify that the internship report titled "Full Stack Development of Mount Glacier Trek Adventure Tourism Platform" has been prepared by Bal Gobind Chaudhary under my academic supervision. This report is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+As his college supervisor, I monitored Bal Gobind's progress throughout his internship at Sajilo Digital Pvt. Ltd. He effectively applied his comprehensive knowledge of both frontend and backend technologies to develop a sophisticated tourism web application. His report thoroughly documents the complete software development lifecycle, including system architecture, database design, API development, and frontend implementation.
+
+The report is well-structured, technically detailed, and demonstrates a mature understanding of full stack development principles. It meets and exceeds the academic standards expected for the BSc.CSIT program.
+
+Mr. Suraj Pandey
+Supervisor, BSc.CSIT
+Bhairahawa Multiple Campus
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Letter of Approval
+
+This is to certify that the internship report "Full Stack Development of Mount Glacier Trek Adventure Tourism Platform" prepared by Bal Gobind Chaudhary is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+We have reviewed this report and find it comprehensive in scope, rich in technical content, and professionally organized. It adequately represents the substantial work completed during the internship period and satisfactorily meets the academic criteria for the degree.
+
+Mr. Suraj Pandey
+Supervisor
+Bhairahawa Multiple Campus
+
+Mr. [Vice Principal Name]
+Vice Principal
+Bhairahawa Multiple Campus
+
+Internal Examiner
+Bhairahawa Multiple Campus
+
+External Examiner
+Tribhuvan University
+
+Acknowledgement
+
+I extend my sincere gratitude to all those who supported and guided me throughout my internship journey and during the preparation of this report.
+
+My deepest appreciation goes to Sajilo Digital Pvt. Ltd. for providing me with the invaluable opportunity to work as a Full Stack Developer Intern. I am profoundly grateful to my company mentor, Mr. Shailesh Mishra, for his exceptional guidance, technical insights, and constant encouragement. His mentorship was instrumental in helping me navigate the complexities of full stack development and successfully deliver the Mount Glacier Trek project.
+
+I extend my heartfelt thanks to my college supervisor, Mr. Suraj Pandey, for his academic guidance, constructive feedback, and support throughout the internship and report writing process. His supervision ensured my work maintained academic rigor while solving real-world problems.
+
+I am also thankful to the entire technical team at Sajilo Digital for their collaborative spirit, knowledge sharing, and supportive work environment that greatly enriched my learning experience.
+
+Finally, I express my eternal gratitude to my family and friends for their unwavering support, patience, and encouragement throughout my academic and professional journey.
+
+Bal Gobind Chaudhary
+Symbol No.: [Bal Gobind's Symbol Number]
+BSc.CSIT
+Bhairahawa Multiple Campus
+
+Abstract
+
+This report documents the 10-week internship completed at Sajilo Digital Pvt. Ltd. as a Full Stack Developer, focusing on the design, development, and deployment of the Mount Glacier Trek adventure tourism website. The primary objective was to create a comprehensive online platform that facilitates trek bookings, provides detailed information about trekking packages, and manages customer interactions for a tourism business.
+
+The project encompassed both frontend and backend development, implementing a complete MERN stack (MongoDB, Express.js, React.js, Node.js) application. Frontend responsibilities included building responsive user interfaces with ReactJS, implementing dynamic routing, state management with Context API and Redux Toolkit, and creating interactive booking forms. Backend development involved designing RESTful APIs with Node.js and Express, implementing secure user authentication with JWT, designing MongoDB schemas for bookings, treks, and users, and integrating payment gateway functionality.
+
+The platform features include user registration and authentication, detailed trek listings with filtering, a multi-step booking system with real-time availability, secure payment processing, admin dashboard for content and booking management, and responsive design for mobile and desktop users.
+
+This internship provided comprehensive exposure to the full software development lifecycle, database design, API development, security considerations, and deployment of a production-ready web application. It significantly enhanced my skills in both frontend and backend technologies and provided practical experience in building scalable, secure web applications.
+
+Keywords: Full Stack Development, MERN Stack, ReactJS, Node.js, MongoDB, REST API, JWT Authentication, Payment Integration, Tourism Platform
+
+Table of Contents
+
+Chapter 1: Introduction
+1.1 Introduction
+1.2 Problem Statement
+1.3 Objectives
+1.4 Scope and Limitations
+1.5 Report Organization
+
+Chapter 2: Organization Details and Literature Review
+2.1 Introduction to the Organization
+2.2 Organizational Hierarchy
+2.3 Working Domains of the Organization
+2.4 Description of the Intern Department/Unit
+2.5 Literature Review / Related Study
+
+Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+3.2 Weekly Log
+3.3 Description of the Project(s) Involved
+3.4 Tasks / Activities Performed
+
+Chapter 4: Conclusion and Learning Outcomes
+4.1 Conclusion
+4.2 Learning Outcomes
+
+References
+
+Appendix
+
+Chapter 1: Introduction
+
+1.1 Introduction
+The adventure tourism industry in Nepal has experienced significant digital transformation, with online platforms becoming essential for trekking companies to reach global audiences, manage bookings, and provide comprehensive information to potential clients. This internship report details my work as a Full Stack Developer at Sajilo Digital Pvt. Ltd., where I developed the Mount Glacier Trek website—a complete online solution for trekking package management and booking.
+
+The project involved building a full-featured web application using the MERN stack (MongoDB, Express.js, React.js, Node.js) that serves both customers seeking trekking adventures and administrators managing the business operations. The platform was designed to handle the complete customer journey from browsing trek packages and checking availability to making secure bookings and payments.
+
+This comprehensive development experience provided practical exposure to database design, REST API development, user authentication, payment gateway integration, and responsive frontend implementation—all essential components of modern full stack web development.
+
+1.2 Problem Statement
+Mount Glacier Trek, a growing adventure tourism company, faced several challenges in managing their operations and customer interactions:
+
+- Manual Booking Processes: Reliance on phone/email for bookings led to errors, double bookings, and inefficient customer service.
+- Limited Online Presence: Basic website provided only static information without interactive booking capabilities.
+- Inefficient Customer Management: No centralized system to track customer inquiries, bookings, or payment status.
+- Poor Information Accessibility: Potential clients couldn't easily browse available dates, compare packages, or check real-time availability.
+- Administrative Overhead: Staff spent excessive time managing bookings manually rather than focusing on customer service and operations.
+- No Payment Integration: Customers couldn't make secure online payments, requiring offline transactions.
+
+This project aimed to address these challenges by developing a comprehensive digital platform that automates booking processes, provides real-time information, and streamlines business operations.
+
+1.3 Objectives
+The primary objectives of this full stack development project were:
+
+- To design and develop a complete tourism management system with customer-facing frontend and administrative backend.
+- To implement secure user authentication and authorization for both customers and administrators.
+- To create a dynamic booking system with real-time availability checking and confirmation.
+- To integrate secure payment gateway for online transactions.
+- To develop an admin dashboard for managing treks, bookings, users, and content.
+- To implement responsive design ensuring optimal user experience across all devices.
+- To design scalable database architecture using MongoDB to handle trek data, user information, and booking records.
+- To build RESTful APIs with Node.js and Express for seamless frontend-backend communication.
+- To ensure application security through input validation, authentication middleware, and secure payment processing.
+
+1.4 Scope and Limitations
+Scope:
+- Full stack development using MERN (MongoDB, Express.js, React.js, Node.js) technology stack.
+- Frontend development with ReactJS including state management, routing, and responsive design.
+- Backend development with Node.js and Express including REST API design and implementation.
+- Database design and implementation with MongoDB including schema design and optimization.
+- User authentication and authorization using JWT (JSON Web Tokens).
+- Payment gateway integration for secure online transactions.
+- Admin dashboard development for content and booking management.
+- Deployment of both frontend and backend to production environment.
+
+Limitations:
+- Mobile application development was beyond the scope of this project.
+- Advanced features like real-time chat support, GPS tracking, or social media integration were not implemented.
+- The payment gateway was integrated in test mode; full production implementation requires additional compliance.
+- Multi-language support and currency conversion were not included in the initial version.
+- Advanced analytics and reporting features were limited to basic booking statistics.
+
+1.5 Report Organization
+This report is organized into four main chapters:
+- Chapter 1 introduces the project context, defines the problem, states objectives, and outlines scope.
+- Chapter 2 provides background about Sajilo Digital Pvt. Ltd. and reviews relevant technical literature.
+- Chapter 3 details internship activities, including roles, weekly progress, and technical implementation.
+- Chapter 4 concludes the report and summarizes learning outcomes.
+
+Chapter 2: Organization Details and Literature Review
+
+2.1 Introduction to the Organization
+Sajilo Digital Pvt. Ltd. is a leading digital solutions provider based in Bhairahawa, Nepal, specializing in custom software development, web applications, and digital transformation services. The company emphasizes using modern technologies and agile methodologies to deliver scalable, user-centered solutions for diverse business needs across various sectors including tourism, e-commerce, and enterprise solutions.
+
+2.2 Organizational Hierarchy
+The company maintains a collaborative structure:
+- Leadership Team: Sets strategic direction and oversees business operations.
+- Project Management: Handles client communication, requirement analysis, and project timelines.
+- Development Department: Includes specialized teams for frontend, backend, full-stack, and mobile development.
+- UI/UX Design Team: Creates user-centered designs and interfaces.
+- Quality Assurance: Ensures product quality through systematic testing.
+- Internship Program: Integrates students into development teams with mentor guidance.
+
+2.3 Working Domains of the Organization
+- Custom Web Application Development
+- E-commerce and Tourism Platforms
+- Mobile Application Development
+- Enterprise Software Solutions
+- API Development and Integration
+- Cloud Deployment and DevOps
+
+2.4 Description of the Intern Department/Unit
+As a Full Stack Developer Intern, I was integrated into the web development team working on client projects. The department follows agile development practices with daily stand-ups, sprint planning, and code reviews. Interns participate in the complete software development lifecycle—from requirement analysis and database design to implementation, testing, and deployment. This holistic approach provides comprehensive exposure to industry practices and collaborative development workflows.
+
+Table 2.1: Internship Duration
+Start Date: 11/17/2025
+Hours: 10:00 AM to 6:00 PM
+Working Days: Sunday to Friday
+Position: Full Stack Developer (MERN Stack)
+Supervisor: Mr. Suraj Pandey
+Mentor: Mr. Shailesh Mishra
+
+2.5 Literature Review / Related Study
+The development of the Mount Glacier Trek platform was informed by contemporary full stack development practices:
+
+- MERN Stack Architecture: Resources like "Full-Stack React Projects" by Shama Hoque (2020) guided the implementation of the complete stack, emphasizing separation of concerns between frontend and backend layers.
+
+- REST API Design: Best practices from "REST API Design Rulebook" by Mark Masse (2011) informed the design of clean, predictable, and well-documented APIs for the booking system.
+
+- Database Design: Principles from "MongoDB: The Definitive Guide" by Kristina Chodorow (2013) guided schema design decisions, particularly for managing related data like treks, bookings, and users.
+
+- Authentication and Security: OWASP security guidelines and resources on JWT implementation informed the secure authentication system protecting user data and payment information.
+
+- Payment Integration: Documentation from payment gateway providers and security standards like PCI DSS informed the secure implementation of payment processing.
+
+- Responsive Design: Modern CSS frameworks and responsive design principles ensured the platform worked seamlessly across all devices.
+
+Chapter 3: Internship Activities
+
+3.1 Roles and Responsibilities
+As a Full Stack Developer Intern, my responsibilities spanned both frontend and backend development:
+
+Frontend Development (ReactJS):
+- Developing reusable React components for trek listings, booking forms, and user interfaces
+- Implementing client-side routing with React Router for seamless navigation
+- Managing application state using Redux Toolkit for complex data flows
+- Creating responsive layouts using CSS Grid, Flexbox, and media queries
+- Implementing form validation and user feedback mechanisms
+- Integrating with backend APIs using Axios for data fetching
+- Optimizing frontend performance through code splitting and lazy loading
+
+Backend Development (Node.js/Express):
+- Designing and implementing RESTful APIs for trek management, booking, and user authentication
+- Developing middleware for authentication, authorization, and input validation
+- Designing MongoDB schemas and implementing database operations
+- Implementing secure user authentication with JWT (JSON Web Tokens)
+- Integrating payment gateway APIs for secure transaction processing
+- Implementing file upload functionality for trek images
+- Creating admin APIs for content management and reporting
+- Implementing error handling and logging mechanisms
+
+Database Development (MongoDB):
+- Designing database schemas for users, treks, bookings, and payments
+- Implementing data relationships and referential integrity
+- Creating database indexes for performance optimization
+- Implementing data aggregation for reporting features
+- Ensuring data security through proper access controls
+
+DevOps and Deployment:
+- Configuring development and production environments
+- Implementing environment variables for configuration management
+- Setting up and managing MongoDB Atlas cloud database
+- Deploying backend to cloud hosting platform
+- Deploying frontend to Vercel hosting platform
+- Implementing basic CI/CD workflows
+
+3.2 Weekly Log
+A detailed account of weekly activities, responsibilities, and learnings:
+
+Weekly Internship Log
+Name: Bal Gobind Chaudhary
+Project: Mount Glacier Trek Tourism Platform
+Week No: 1
+Date: 11/17/2025 - 11/23/2025
+Responsibilities: Project initiation and requirement analysis.
+Activities: Studied project requirements and business logic. Researched tourism platform features. Set up development environment and project repositories. Created initial project structure for both frontend and backend.
+Observation: Understanding business domain thoroughly is crucial for designing appropriate technical solutions.
+Mentor's Approval: [Signature]
+
+Week No: 2
+Date: 11/24/2025 - 11/30/2025
+Responsibilities: Database design and backend setup.
+Activities: Designed MongoDB schemas for users, treks, bookings. Set up Express server with basic routing. Implemented initial API endpoints. Configured database connection and environment variables.
+Observation: Well-designed database schema forms the foundation of a scalable application.
+Mentor's Approval: [Signature]
+
+Week No: 3
+Date: 12/01/2025 - 12/07/2025
+Responsibilities: User authentication system.
+Activities: Implemented user registration and login APIs. Added JWT token generation and verification. Created password encryption with bcrypt. Built authentication middleware for protected routes.
+Observation: Security should be implemented from the beginning, not as an afterthought.
+Mentor's Approval: [Signature]
+
+Week No: 4
+Date: 12/08/2025 - 12/14/2025
+Responsibilities: Frontend foundation and authentication UI.
+Activities: Set up React project with Redux Toolkit. Created authentication pages (login, register). Implemented protected routes and token management. Built responsive navigation and layout components.
+Observation: State management architecture significantly impacts application maintainability.
+Mentor's Approval: [Signature]
+
+Week No: 5
+Date: 12/15/2025 - 12/21/2025
+Responsibilities: Trek management features.
+Activities: Developed backend APIs for trek CRUD operations. Implemented frontend pages for trek listing and details. Added image upload functionality for trek photos. Created filtering and search features.
+Observation: File handling requires careful consideration of storage, security, and performance.
+Mentor's Approval: [Signature]
+
+Week No: 6
+Date: 12/22/2025 - 12/28/2025
+Responsibilities: Booking system development.
+Activities: Implemented booking APIs with availability checking. Developed multi-step booking form in React. Added real-time date validation and participant limits. Created booking confirmation and email notification.
+Observation: Complex business logic requires thorough testing and validation.
+Mentor's Approval: [Signature]
+
+Week No: 7
+Date: 12/29/2025 - 01/04/2026
+Responsibilities: Payment gateway integration.
+Activities: Integrated payment gateway APIs. Implemented secure payment processing flow. Added payment status tracking and webhook handling. Developed payment success/failure pages.
+Observation: Financial transactions demand highest security standards and error handling.
+Mentor's Approval: [Signature]
+
+Week No: 8
+Date: 01/05/2026 - 01/11/2026
+Responsibilities: Admin dashboard development.
+Activities: Created admin APIs for managing bookings and users. Built admin dashboard with analytics. Implemented role-based access control. Added content management features.
+Observation: Administrative interfaces require careful consideration of usability and data presentation.
+Mentor's Approval: [Signature]
+
+Week No: 9
+Date: 01/12/2026 - 01/18/2026
+Responsibilities: Testing, optimization, and security.
+Activities: Conducted comprehensive API testing with Postman. Performed frontend testing and debugging. Optimized database queries and API responses. Implemented security enhancements and input validation.
+Observation: Performance optimization often reveals architectural improvements.
+Mentor's Approval: [Signature]
+
+Week No: 10
+Date: 01/19/2026 - 01/25/2026
+Responsibilities: Deployment and documentation.
+Activities: Deployed backend to cloud platform. Deployed frontend to Vercel. Configured domain and SSL certificates. Created comprehensive project documentation and user guides.
+Observation: Proper deployment and documentation ensure project sustainability and knowledge transfer.
+Mentor's Approval: [Signature]
+
+3.3 Description of the Project(s) Involved During Internship
+Primary Project: Mount Glacier Trek Tourism Platform
+A complete booking and management system for adventure tourism services built with MERN stack.
+
+Technical Specifications:
+- Frontend: ReactJS with Redux Toolkit for state management, React Router for navigation
+- Backend: Node.js with Express.js framework, REST API architecture
+- Database: MongoDB Atlas (cloud) with Mongoose ODM
+- Authentication: JWT (JSON Web Tokens) with refresh token mechanism
+- Payment: Integrated payment gateway for secure transactions
+- Hosting: Backend on cloud platform, Frontend on Vercel
+
+Key Features:
+- User Authentication: Secure registration, login, profile management
+- Trek Management: Detailed trek listings with images, descriptions, itineraries
+- Booking System: Multi-step booking with real-time availability checking
+- Payment Processing: Secure online payment with multiple method support
+- Admin Dashboard: Comprehensive management interface for treks, bookings, users
+- Responsive Design: Mobile-friendly interface for all device types
+- Email Notifications: Automated confirmation and reminder emails
+- Search and Filter: Advanced trek search with multiple criteria
+
+Live URL: https://www.mountglaciertrek.com.np/
+
+3.4 Tasks / Activities Performed
+- Designed and implemented complete database architecture with MongoDB
+- Developed RESTful APIs with Node.js and Express for all platform features
+- Built responsive frontend interface with ReactJS and modern CSS
+- Implemented secure user authentication and authorization system
+- Integrated payment gateway for secure online transactions
+- Created admin dashboard with comprehensive management features
+- Implemented file upload and management for trek images
+- Developed booking system with real-time availability validation
+- Configured and deployed both frontend and backend to production
+- Conducted thorough testing including security and performance testing
+- Documented APIs, database schema, and deployment procedures
+- Implemented error handling, logging, and monitoring mechanisms
+
+Chapter 4: Conclusion and Learning Outcomes
+
+4.1 Conclusion
+The 10-week internship at Sajilo Digital Pvt. Ltd. provided an immersive, comprehensive experience in full stack web development through the creation of the Mount Glacier Trek tourism platform. This project successfully delivered a production-ready application that solves real business problems for a tourism company, demonstrating practical application of the complete MERN technology stack.
+
+The experience of building an application from database design to deployment provided invaluable insights into the complexities and considerations of full stack development. Successfully implementing features like secure payment processing, real-time booking systems, and comprehensive admin interfaces strengthened my understanding of how different system components interact in a production environment.
+
+This internship effectively bridged theoretical knowledge with practical implementation, providing clarity on architectural decisions, security considerations, and performance optimization that are critical in professional software development.
+
+4.2 Learning Outcomes
+
+Technical Skills:
+- Full Stack Proficiency: Mastered the complete MERN stack including MongoDB schema design, Express API development, React frontend implementation, and Node.js server management.
+- Database Design: Gained expertise in NoSQL database design with MongoDB, including data modeling, indexing, aggregation, and performance optimization.
+- API Development: Developed comprehensive RESTful APIs with proper authentication, validation, error handling, and documentation.
+- Authentication & Security: Implemented secure JWT-based authentication, password encryption, role-based access control, and secure payment processing.
+- State Management: Applied advanced state management patterns using Redux Toolkit for complex application flows.
+- Payment Integration: Successfully integrated and tested payment gateway with secure transaction handling.
+- Deployment & DevOps: Gained experience in deploying both frontend and backend applications, configuring cloud databases, and implementing basic CI/CD workflows.
+
+Professional Skills:
+- Project Architecture: Developed ability to design complete system architecture considering scalability, maintainability, and security.
+- Problem-Solving: Enhanced debugging and problem-solving skills across the full technology stack.
+- Collaboration: Improved teamwork and communication skills through regular code reviews and collaborative development.
+- Documentation: Created comprehensive technical documentation for APIs, database schema, and deployment procedures.
+- Client Requirements: Learned to translate business requirements into technical specifications and implementations.
+- Time Management: Developed ability to manage complex projects with multiple components and deadlines.
+
+The internship has equipped me with both the technical depth and professional mindset required for a career in full stack web development, providing confidence to tackle complex software projects in professional settings.
+
+References
+
+Chodorow, K. (2013). MongoDB: The definitive guide. O'Reilly Media.
+
+Hoque, S. (2020). Full-stack React projects. Packt Publishing.
+
+Masse, M. (2011). REST API design rulebook. O'Reilly Media.
+
+MongoDB Documentation. (n.d.). Retrieved from https://www.mongodb.com/docs/
+
+Node.js Documentation. (n.d.). Retrieved from https://nodejs.org/en/docs/
+
+React Documentation. (n.d.). Retrieved from https://reactjs.org/docs/getting-started.html
+
+Redux Toolkit Documentation. (n.d.). Retrieved from https://redux-toolkit.js.org/
+
+OWASP Foundation. (2023). OWASP security guidelines. Retrieved from https://owasp.org
+
+Appendix
+
+A1: Website Screenshots
+[Images to be inserted: Homepage, Trek Listing, Booking Process, Payment Page, Admin Dashboard]
+
+A2: API Documentation Sample
+Endpoint: POST /api/bookings
+Description: Create a new booking
+Authentication: Required (JWT Token)
+Request Body: { trekId, dates, participants, contactInfo }
+Response: { bookingId, status, paymentUrl }
+
+A3: Database Schema Diagram
+[Diagram showing relationships between Users, Treks, Bookings, and Payments collections]
+
+A4: Deployment Information
+Frontend URL: https://www.mountglaciertrek.com.np
+Backend API: https://api.mountglaciertrek.com.np
+Database: MongoDB Atlas Cluster
+Payment Gateway: Test Mode Integration
+
+A5: GitHub Repository Links
+Frontend Repository: [GitHub link]
+Backend Repository: [GitHub link]

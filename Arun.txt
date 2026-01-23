@@ -1,0 +1,430 @@
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Mentor's Recommendation from Company
+
+I am delighted to provide my wholehearted recommendation for ARUN NEUPANE based on his outstanding performance during his 10-week internship at Sajilo Digital Pvt. Ltd. As his mentor, I supervised his work on the development of our official company website sajilodigital.com.np using Next.js.
+
+Throughout his internship, Arun demonstrated exceptional technical proficiency, a strong work ethic, and a keen eye for detail. He took ownership of the frontend development process, from initial planning to final deployment, and consistently delivered high-quality, production-ready code. His ability to grasp complex Next.js concepts and apply them to build a performant, scalable, and responsive website was impressive.
+
+Arun showed excellent problem-solving skills, effectively troubleshooting challenges related to routing, state management, and performance optimization. He was proactive in seeking feedback, incorporated suggestions constructively, and worked collaboratively with the team. His dedication to creating a polished user interface that accurately reflects our company's brand and values was evident in the final product.
+
+I hereby endorse the internship report entitled "Design and Development of Sajilo Digital Official Website Using Next.js" prepared by Arun Neupane. This project, completed under my supervision, meets the practical requirements for the Bachelor of Science in Computer Science and Information Technology degree and is highly recommended for evaluation.
+
+Mr. Shailesh Mishra
+Project Mentor
+Sajilo Digital Pvt. Ltd.
+Bhairahawa, Nepal
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Supervisor's Recommendation
+
+This is to certify that the internship report titled "Design and Development of Sajilo Digital Official Website Using Next.js" has been prepared by Arun Neupane under my academic supervision. This report is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+As his college supervisor, I monitored Arun's progress during his internship at Sajilo Digital Pvt. Ltd. He successfully translated his academic knowledge of web technologies into a practical, industry-standard project. His report thoroughly documents the technical implementation, development methodology, and learning outcomes, demonstrating a solid understanding of modern frontend development with Next.js.
+
+The report is well-structured, comprehensive, and meets the academic standards expected for the BSc.CSIT program.
+
+Mr. Suraj Pandey
+Supervisor, BSc.CSIT
+Bhairahawa Multiple Campus
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Letter of Approval
+
+This is to certify that the internship report "Design and Development of Sajilo Digital Official Website Using Next.js" prepared by Arun Neupane is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+We have examined this report and find it satisfactory in terms of scope, content, quality, and organization. It adequately represents the work carried out during the internship period and fulfills the academic criteria for the degree.
+
+Mr. Suraj Pandey
+Supervisor
+Bhairahawa Multiple Campus
+
+Mr. [Vice Principal Name]
+Vice Principal
+Bhairahawa Multiple Campus
+
+Internal Examiner
+Bhairahawa Multiple Campus
+
+External Examiner
+Tribhuvan University
+
+Acknowledgement
+
+I wish to express my deepest gratitude to everyone who supported me during my internship and in the preparation of this report.
+
+My sincere thanks go to Sajilo Digital Pvt. Ltd. for granting me the invaluable opportunity to work as a Frontend Developer Intern. I am profoundly grateful to my company mentor, Mr. Shailesh Mishra, for his expert guidance, unwavering support, and insightful feedback throughout the project. His mentorship was instrumental in deepening my understanding of Next.js and professional development practices.
+
+I extend my heartfelt appreciation to my college supervisor, Mr. Suraj Pandey, for his academic guidance, encouragement, and valuable critiques during the internship and report writing process. His oversight ensured my work remained aligned with academic objectives.
+
+I am also thankful to the entire team at Sajilo Digital for fostering a collaborative and knowledge-sharing environment. Their support was crucial to my learning experience.
+
+Finally, I am eternally grateful to my family and friends for their constant love, patience, and motivation throughout my academic and professional journey.
+
+Arun Neupane
+Symbol No.: 30282
+BSc.CSIT
+Bhairahawa Multiple Campus
+
+Abstract
+
+This report presents a comprehensive account of a 10-week internship undertaken at Sajilo Digital Pvt. Ltd. as a Frontend Developer. The primary objective was to design, develop, and deploy the company's official website, sajilodigital.com.np, utilizing the Next.js framework to create a modern, performant, and scalable digital presence.
+
+The project encompassed the full frontend development lifecycle, from requirement analysis and UI/UX planning to implementation, optimization, and deployment. Key technical focuses included leveraging Next.js features such as Server-Side Rendering (SSR) and Static Site Generation (SSG) for optimal performance and SEO, implementing a component-based architecture for maintainability, and ensuring full responsiveness across all device types. The website features core sections such as Home, About, Services, Portfolio, and Contact, designed to effectively communicate the company's brand and service offerings.
+
+Beyond the main project, the internship included hands-on work on auxiliary projects including a Python WiFi Home Server, a Color Picker web app, and a Quiz Application. These diversified my skill set into backend networking concepts and interactive frontend state management.
+
+The internship served as a critical bridge between academic theory and industry practice, significantly enhancing my competencies in modern web technologies, problem-solving, and professional workflow management within a collaborative team environment.
+
+Keywords: Next.js, React, Frontend Development, SSR, Static Site Generation, Responsive Design, Web Performance
+
+Table of Contents
+
+Chapter 1: Introduction
+1.1 Introduction
+1.2 Problem Statement
+1.3 Objectives
+1.4 Scope and Limitations
+1.5 Report Organization
+
+Chapter 2: Organization Details and Literature Review
+2.1 Introduction to the Organization
+2.2 Organizational Hierarchy
+2.3 Working Domains of the Organization
+2.4 Description of the Intern Department/Unit
+2.5 Literature Review / Related Study
+
+Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+3.2 Weekly Log
+3.3 Description of the Project(s) Involved
+3.4 Tasks / Activities Performed
+
+Chapter 4: Conclusion and Learning Outcomes
+4.1 Conclusion
+4.2 Learning Outcomes
+
+References
+
+Appendix
+
+Chapter 1: Introduction
+
+1.1 Introduction
+In today's digital landscape, a company's website is its primary interface with the world, serving as a cornerstone for brand identity, credibility, and client engagement. For technology firms like Sajilo Digital Pvt. Ltd., a sophisticated, high-performance website is not just a marketing asset but a testament to its technical expertise. This report details my 10-week internship focused on developing the official website for Sajilo Digital using Next.js, a powerful React-based framework.
+
+The project aimed to create a website that is not only visually compelling and informative but also technically robust, leveraging modern web development paradigms. Key considerations included implementing server-side rendering for improved SEO and initial load performance, constructing a reusable component library for future scalability, and ensuring a flawless user experience across all devices through responsive design. This work provided a practical immersion into professional frontend development, translating design concepts into a live, production-grade application.
+
+1.2 Problem Statement
+Prior to this project, Sajilo Digital lacked a dedicated, modern website that could effectively represent its growing portfolio and technical capabilities in the competitive digital solutions market. The existing online presence was insufficient and presented several challenges:
+
+- Absence of a Centralized Digital Hub: No single, authoritative platform to showcase services, projects, and company values cohesively.
+- Poor Technical Foundation: The previous online presence was not built with modern frameworks, leading to suboptimal performance, poor search engine visibility, and difficult maintenance.
+- Non-Responsive Design: The user experience degraded significantly on mobile and tablet devices, which represent a major portion of web traffic.
+- Limited Scalability and Maintainability: The structure of any existing web assets did not follow a modular, component-based architecture, hindering future updates and feature additions.
+- Weak Brand Representation: The digital facade did not adequately reflect the company's professionalism, innovation, and technical prowess.
+
+This project was initiated to address these gaps by building a website from the ground up using industry-best practices and technologies.
+
+1.3 Objectives
+The primary objectives of this internship project were:
+- To design and develop a professional, visually appealing, and brand-accurate website for Sajilo Digital Pvt. Ltd.
+- To utilize the Next.js framework to implement features like Server-Side Rendering (SSR) and Static Site Generation (SSG) for superior performance and SEO.
+- To architect the application using a modular, component-based structure to ensure code reusability, ease of maintenance, and future scalability.
+- To implement a fully responsive design that delivers an optimal viewing experience across desktops, tablets, and smartphones.
+- To optimize the website for fast loading speeds, accessibility, and cross-browser compatibility.
+- To integrate clear content presentation for services, portfolio, and contact information to facilitate user engagement.
+- To gain hands-on experience with the complete software development lifecycle, including planning, development, testing, and deployment.
+
+1.4 Scope and Limitations
+Scope:
+- Full frontend development of the sajilodigital.com.np website using Next.js and React.
+- Design and implementation of all major site sections: Home, About Us, Services, Portfolio, Blog/News, and Contact.
+- Implementation of responsive layouts using modern CSS (Flexbox, Grid) and a mobile-first approach.
+- Performance optimization through image optimization, code splitting, and leveraging Next.js built-in features.
+- Deployment and configuration on the Vercel platform.
+- Basic Search Engine Optimization (SEO) setup using meta tags and semantic HTML.
+
+Limitations:
+- The project scope was limited to frontend development. Backend logic for forms or a Content Management System (CMS) was not integrated; form submissions were handled via third-party services.
+- User authentication and advanced interactive dashboards were beyond the scope of this corporate website project.
+- While performance was optimized, advanced monitoring and analytics integration were not implemented.
+- The initial launch contained a fixed set of portfolio projects and blog posts; a dynamic content management solution was planned for a future phase.
+
+1.5 Report Organization
+This report is structured into four chapters to provide a logical and comprehensive overview of the internship:
+- Chapter 1: Introduction sets the context, defines the problem, outlines objectives, and delineates the project's scope.
+- Chapter 2: Organization Details and Literature Review offers background on Sajilo Digital and examines the technical literature that informed the project's approach.
+- Chapter 3: Internship Activities provides a detailed account of my roles, weekly progress, project descriptions, and specific tasks undertaken.
+- Chapter 4: Conclusion and Learning Outcomes summarizes the project's achievements and reflects on the professional and technical skills acquired.
+
+Chapter 2: Organization Details and Literature Review
+
+2.1 Introduction to the Organization
+Sajilo Digital Pvt. Ltd. is a forward-thinking digital solutions agency based in Bhairahawa, Nepal. The company specializes in providing end-to-end technology services, including custom software development, web and mobile application creation, digital marketing, and IT consultancy. Driven by a mission to empower businesses through innovative and efficient digital tools, Sajilo Digital emphasizes agility, quality, and client-centric development methodologies. The company's commitment to adopting modern tech stacks and fostering a culture of continuous learning made it an ideal environment for an immersive internship experience.
+
+2.2 Organizational Hierarchy
+The company employs a flat yet functional hierarchy designed to promote efficiency and collaboration:
+- Leadership / Directors: Set company vision, strategy, and oversee major client relationships.
+- Project Management: Responsible for resource planning, timeline management, and acting as the bridge between clients and the technical team.
+- Development Teams: Organized into frontend, backend, and full-stack units, tasked with designing, coding, and testing software products.
+- UI/UX Design Team: Creates user interface mockups, prototypes, and maintains design systems.
+- Quality Assurance (QA) Team: Ensures product reliability through systematic testing procedures.
+- Marketing & Sales: Handles business development, branding, and client acquisition.
+- Interns: Integrated directly into project teams to contribute to real-world projects under mentorship.
+
+2.3 Working Domains of the Organization
+Sajilo Digital operates across several key domains within the tech industry:
+- Custom Web Development: Building responsive websites, progressive web apps (PWAs), and single-page applications (SPAs) using stacks like Next.js, React, and Node.js.
+- Mobile App Development: Creating cross-platform (React Native, Flutter) and native mobile applications.
+- Enterprise Software Solutions: Developing tailored business management systems, CRMs, and ERPs.
+- E-commerce Solutions: Designing and developing online stores with integrated payment and inventory systems.
+- Digital Marketing & SEO: Enhancing online visibility and user engagement through targeted strategies.
+- Cloud Services & DevOps: Assisting with deployment, hosting, and infrastructure management.
+
+2.4 Description of the Intern Department/Unit
+The internship program at Sajilo Digital is structured to provide maximum practical exposure. Interns are treated as junior developers and assigned to active projects. I was placed in the Frontend Development unit under the guidance of my mentor, Mr. Shailesh Mishra.
+
+The department operated with agile-inspired practices, including daily stand-up meetings, weekly sprint planning, and code review sessions. This environment emphasized collaborative problem-solving, version control best practices using Git, and writing clean, documented code. My primary project was the company website, which gave me direct responsibility over a production-critical asset, from conceptualization to deployment.
+
+Table 2.1: Internship Duration
+Start Date: 11/17/2025
+Daily Hours: 10:00 AM to 6:00 PM
+Working Days: Sunday to Friday
+Position: Frontend Developer Intern
+Company Mentor: Mr. Shailesh Mishra
+College Supervisor: Mr. Suraj Pandey
+
+2.5 Literature Review / Related Study
+The development of the Sajilo Digital website was guided by contemporary research and established best practices in web development:
+
+- Next.js and React Frameworks: The official Next.js documentation and resources like "Next.js in Action" by T. M. Smith (2023) highlight the advantages of hybrid rendering (SSR/SSG) for improving performance, SEO, and user experience—principles central to our technical choices.
+
+- Component-Based Architecture: Inspired by works like "Clean Architecture" by Robert C. Martin (2017) and React design patterns, the project adopted a modular component structure to promote separation of concerns, testability, and team scalability.
+
+- Web Performance Optimization: Studies from Google's Web Vitals initiative and books like "High Performance Browser Networking" by I. Grigorik (2013) informed techniques for minimizing load times, such as image optimization, lazy loading, and efficient bundling.
+
+- Responsive Web Design (RWD): The foundational principles established by Ethan Marcotte (2011) were applied, utilizing fluid grids, flexible images, and CSS media queries to ensure accessibility across all screen sizes.
+
+- User Experience (UX) Design: Insights from "Don't Make Me Think" by Steve Krug (2006) influenced the design of intuitive navigation and clear information hierarchy to reduce cognitive load for visitors.
+
+Chapter 3: Internship Activities
+
+3.1 Roles and Responsibilities
+As a Frontend Developer Intern, my core responsibilities encompassed the entire development process for the company website and contributions to auxiliary projects:
+
+For the Main Website (Next.js):
+- Leading the frontend architecture and development of sajilodigital.com.np.
+- Translating UI/UX design mockups into functional, responsive React components.
+- Implementing application routing using the file-based routing system of Next.js.
+- Leveraging Next.js data fetching methods (getStaticProps, getServerSideProps) for optimal content rendering.
+- Managing global styles and component-level CSS using CSS Modules for scoped styling.
+- Integrating and optimizing visual assets (images, icons) for performance.
+- Implementing interactive UI elements with React state and effects.
+- Ensuring cross-browser compatibility and accessibility standards (WCAG).
+- Deploying and managing the production build on the Vercel platform.
+- Conducting performance audits and implementing improvements.
+
+General Development Duties:
+- Participating in code reviews and adhering to team coding standards.
+- Using Git for version control with feature branching and pull requests.
+- Documenting components, project setup, and deployment procedures.
+- Collaborating with my mentor to plan sprints and review progress.
+
+3.2 Weekly Log
+A detailed breakdown of activities, responsibilities, and key learnings for each week:
+
+Weekly Internship Log
+Name: Arun Neupane
+Project: Sajilo Digital Official Website
+Week No: 1
+Date: 11/17/2025 - 11/23/2025
+Responsibilities: Onboarding and project discovery.
+Activities: Company orientation. Deep dive into project requirements and brand guidelines. Analysis of competitor websites and modern design trends for tech companies.
+Observation: A thorough understanding of the business goals is as important as the technical specifications.
+Mentor's Approval: [Signature]
+
+Week No: 2
+Date: 11/24/2025 - 11/30/2025
+Responsibilities: Technical planning and setup.
+Activities: Selected the tech stack (Next.js, Vercel). Set up the development environment and project repository. Created the initial project structure and configured essential tools (ESLint, Prettier).
+Observation: A solid foundation and consistent tooling prevent issues later in the development cycle.
+Mentor's Approval: [Signature]
+
+Week No: 3
+Date: 12/01/2025 - 12/07/2025
+Responsibilities: Core layout and component development.
+Activities: Built foundational layout components (Header, Footer, Layout, Navigation). Established the CSS architecture and global styles. Created reusable UI components (Button, Card, Section).
+Observation: Investing time in building a robust design system accelerates future development.
+Mentor's Approval: [Signature]
+
+Week No: 4
+Date: 12/08/2025 - 12/14/2025
+Responsibilities: Page structure and initial content.
+Activities: Developed the skeleton of key pages (Home, About, Services) using Next.js pages. Implemented the initial responsive grid layouts. Integrated placeholder content.
+Observation: Building a semantic, accessible HTML structure is crucial before adding styling complexity.
+Mentor's Approval: [Signature]
+
+Week No: 5
+Date: 12/15/2025 - 12/21/2025
+Responsibilities: Dynamic features and data fetching.
+Activities: Implemented dynamic portfolio and blog listing pages using getStaticProps. Created markdown/content parsers for blog posts. Added interactive elements to the homepage hero section.
+Observation: Next.js's data fetching methods powerfully decouple content from presentation.
+Mentor's Approval: [Signature]
+
+Week No: 6
+Date: 12/22/2025 - 12/28/2025
+Responsibilities: Styling refinement and responsiveness.
+Activities: Applied detailed styling to all components and pages. Performed intensive responsive testing and adjustments across multiple device breakpoints. Fixed UI inconsistencies.
+Observation: Responsive design is an iterative process of testing and refinement.
+Mentor's Approval: [Signature]
+
+Week No: 7
+Date: 12/29/2025 - 01/04/2026
+Responsibilities: Performance optimization.
+Activities: Optimized all images using next/image. Implemented lazy loading for below-the-fold components. Analyzed and reduced JavaScript bundle size. Added loading states and skeletons.
+Observation: Performance work has a direct, measurable impact on user experience and business metrics.
+Mentor's Approval: [Signature]
+
+Week No: 8
+Date: 01/05/2026 - 01/11/2026
+Responsibilities: Testing and content integration.
+Activities: Conducted cross-browser testing (Chrome, Firefox, Safari, Edge). Tested accessibility with keyboard navigation and screen readers. Integrated final company copy and real project data.
+Observation: Rigorous testing uncovers issues that are not apparent during development.
+Mentor's Approval: [Signature]
+
+Week No: 9
+Date: 01/12/2026 - 01/18/2026
+Responsibilities: Final polish and pre-deployment.
+Activities: Implemented smooth page transitions and micro-interactions. Conducted a full performance audit using Lighthouse. Fixed final bugs and conducted user acceptance testing with the team.
+Observation: The final 10% of polish often defines the perceived quality of the product.
+Mentor's Approval: [Signature]
+
+Week No: 10
+Date: 01/19/2026 - 01/25/2026
+Responsibilities: Deployment, documentation, and handover.
+Activities: Deployed the final production build to Vercel. Set up a custom domain (sajilodigital.com.np) and HTTPS. Created comprehensive project documentation for future developers. Prepared the final internship presentation and report.
+Observation: A clean handover and documentation are critical for the long-term maintainability of a project.
+Mentor's Approval: [Signature]
+
+3.3 Description of the Project(s) Involved During Internship
+
+Primary Project: Sajilo Digital Official Website (Next.js)
+This was the flagship project of my internship. The website serves as the primary digital face of the company, designed to attract clients, showcase expertise, and facilitate contact.
+- Live URL: https://sajilodigital.com.np
+- Tech Stack: Next.js 14, React 18, CSS Modules, Vercel.
+- Key Features & Implementation:
+  - Hybrid Rendering: Used getStaticProps for blog/portfolio pages (SSG) and getServerSideProps where needed for dynamic content.
+  - Component Library: Built over 20 reusable, documented components (e.g., ServiceCard, ProjectShowcase, Testimonial).
+  - Performance: Achieved >90 Lighthouse scores through image optimization, font subsetting, and efficient code splitting.
+  - Responsiveness: Fully fluid layouts using CSS Grid and Flexbox with a mobile-first approach.
+  - Contact Integration: Connected contact forms to a backend service for reliable lead capture.
+
+Auxiliary Project 1: Python WiFi Home Server
+A personal exploration project to understand basic networking and server-client architecture.
+- Objective: Create a lightweight HTTP server in Python that serves files and simple APIs to devices on a local network.
+- Learning Outcomes: Gained understanding of socket programming, HTTP request/response cycles, and basic network security considerations.
+- Repository: https://github.com/sajilodigital9000/python-server
+
+Auxiliary Project 2: Color Picker Web Application
+A focused frontend project to practice state management and interactive UI.
+- Objective: Build a tool for designers to select, mix, and copy color values (HEX, RGB, HSL).
+- Tech: React, useState/useEffect hooks, CSS.
+- Learning Outcomes: Deepened knowledge of React state flow, color theory in code, and clipboard API integration.
+- Live Demo: https://easycolorpicker.vercel.app
+
+Auxiliary Project 3: Quiz Web Application
+An interactive application to manage complex state and user flow.
+- Objective: Develop a timed quiz with multiple categories, score tracking, and result summary.
+- Tech: React, Context API for global state (quiz progress, timer), React Router.
+- Learning Outcomes: Mastered managing interconnected state (questions, timer, score), conditional rendering patterns, and creating engaging user feedback.
+- Live Demo: https://sajiloquiz.vercel.app
+
+3.4 Tasks / Activities Performed
+- Architected and developed a production-grade company website using Next.js.
+- Built and documented a library of reusable React components.
+- Implemented responsive web design principles for all device types.
+- Optimized web performance (Core Web Vitals) and SEO fundamentals.
+- Configured and managed deployment pipelines on Vercel.
+- Wrote clean, maintainable, and well-documented code.
+- Participated in agile development rituals (stand-ups, code reviews).
+- Developed auxiliary projects to explore backend concepts (Python server) and advanced frontend state management (Quiz app).
+- Conducted thorough testing including cross-browser, responsiveness, and accessibility checks.
+- Prepared technical documentation and project reports.
+
+Chapter 4: Conclusion and Learning Outcomes
+
+4.1 Conclusion
+The 10-week internship at Sajilo Digital Pvt. Ltd. was an immensely rewarding and transformative experience. The successful development and launch of the sajilodigital.com.np website stands as a concrete achievement, demonstrating the practical application of modern frontend technologies to solve real business problems. This project provided a deep dive into the Next.js ecosystem, reinforcing the value of frameworks that offer built-in solutions for performance, SEO, and developer experience.
+
+Working on auxiliary projects broadened my technical perspective, giving me hands-on exposure to backend networking concepts and complex frontend state management beyond the primary website. The internship successfully bridged the gap between academic knowledge and industry demands, providing clarity on professional workflows, collaboration tools, and the importance of writing maintainable, scalable code.
+
+Overall, this experience has solidified my passion for web development, equipped me with in-demand skills, and prepared me to contribute effectively in a professional software development environment.
+
+4.2 Learning Outcomes
+
+Technical Skills:
+- Mastery of Next.js Framework: Gained extensive experience with App Router, Data Fetching (SSG/SSR), Image Optimization, and Routing, understanding their impact on performance and SEO.
+- Advanced React Proficiency: Strengthened concepts of hooks, component lifecycle, context API, and reusable component patterns.
+- Performance Optimization Expertise: Learned and applied techniques for bundle splitting, lazy loading, image optimization, and Core Web Vitals improvement.
+- Responsive & Accessible Design: Developed the ability to create websites that work flawlessly across all devices and are usable by people with disabilities.
+- Deployment & DevOps Basics: Acquired hands-on experience with Vercel platform, CI/CD for frontend projects, and domain management.
+- Full-Stack Awareness: Through the Python server project, gained foundational knowledge of backend server mechanics and HTTP protocols.
+
+Professional Skills:
+- Project Management: Experienced breaking down a large project into manageable tasks, estimating effort, and working within timelines.
+- Collaboration & Communication: Improved skills in articulating technical decisions, participating in code reviews, and working within a team dynamic.
+- Problem-Solving: Enhanced ability to debug complex issues, research solutions, and implement effective fixes.
+- Professional Workflow: Became proficient with industry-standard tools like Git, VS Code, and agile development practices.
+- Documentation: Learned the critical importance of documenting code and processes for future maintainers and one's future self.
+
+This internship has been a cornerstone in my development as a software engineer, providing both the technical toolkit and the professional mindset required for a successful career.
+
+References
+
+Banks, A., & Porcello, E. (2017). Learning React: Modern patterns for developing React apps. O'Reilly Media.
+
+Google Developers. (2023). Web Vitals. https://web.dev/vitals/
+
+Grigorik, I. (2013). High performance browser networking. O'Reilly Media.
+
+Krug, S. (2006). Don't make me think: A common sense approach to web usability. New Riders.
+
+Marcotte, E. (2011). Responsive web design. A Book Apart.
+
+Martin, R. C. (2017). Clean architecture: A craftsman's guide to software structure and design. Prentice Hall.
+
+Next.js Documentation. (n.d.). Retrieved from https://nextjs.org/docs
+
+Smith, T. M. (2023). Next.js in action. Manning Publications.
+
+Appendix
+
+A1: Website Screenshots
+[Images to be inserted: Homepage, Services Page, Portfolio Grid, Contact Page, Mobile Navigation View]
+
+A2: Lighthouse Performance Report Summary
+- Performance: 95
+- Accessibility: 92
+- Best Practices: 100
+- SEO: 100
+
+A3: Component Documentation Excerpt
+Component: ServiceCard
+Location: /components/services/ServiceCard.js
+Props: icon (ReactNode), title (string), description (string)
+Usage: <ServiceCard icon={<IconCode />} title="Web Dev" description="Modern websites..." />
+
+A4: Project Links
+- Main Website: https://sajilodigital.com.np
+- Color Picker App: https://easycolorpicker.vercel.app
+- Quiz App: https://sajiloquiz.vercel.app
+- Python Server Repo: https://github.com/sajilodigital9000/python-server

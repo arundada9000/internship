@@ -1,0 +1,509 @@
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Mentor's Recommendation from Company
+I am pleased to highly recommend SUNIL PAUDYAL for any future endeavors in the fields of frontend development and software quality assurance. As his mentor during his internship at Sajilo Digital Pvt. Ltd., I had the opportunity to supervise his work on the Sushila Fancy Store Website project.
+
+Throughout his internship, Sunil demonstrated a strong commitment to learning, a keen eye for detail, and a professional work ethic. He effectively balanced his dual role as a Frontend Developer and QA Tester, contributing significantly to both the development and validation phases of the project. He showed excellent problem-solving skills, a willingness to take on challenges, and the ability to work collaboratively within the team.
+
+He successfully utilized ReactJS to build responsive and interactive user interfaces while simultaneously applying systematic testing methodologies to ensure the quality and reliability of the application. His dedication and proactive approach made him a valuable asset to our team.
+
+I hereby recommend the project report entitled "Development and Testing of Sushila Fancy Store Website using ReactJS" prepared by Sunil Paudyal under my supervision. This work is submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science and Information Technology and is recommended for final evaluation.
+
+Mr. Shailesh Mishra
+Project Mentor
+Sajilo Digital Pvt. Ltd.
+Bhairahawa, Nepal
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Supervisor's Recommendation
+This is to certify that the internship report entitled "Development and Testing of Sushila Fancy Store Website using ReactJS" has been prepared by Sunil Paudyal under my supervision. This report is submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science and Information Technology.
+
+As his college supervisor, I observed Sunil's progress throughout his internship at Sajilo Digital Pvt. Ltd. He successfully applied his academic knowledge to a real-world project, demonstrating competence in ReactJS development and software quality assurance. His report documents the technical work, learning process, and outcomes systematically and satisfactorily.
+
+In my opinion, this internship report meets the necessary scope and quality standards required for the final evaluation in the BSc.CSIT program.
+
+Mr. Suraj Pandey
+Supervisor, BSc.CSIT
+Bhairahawa Multiple Campus
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Letter of Approval
+This is to certify that the internship report entitled "Development and Testing of Sushila Fancy Store Website using ReactJS" prepared by Sunil Paudyal is submitted in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science and Information Technology.
+
+We have reviewed this report and find it satisfactory in terms of scope, content, and quality. It adequately reflects the work undertaken during the internship period and meets the academic standards expected for the award of the degree.
+
+<table> <tr> <td>Mr. Suraj Pandey<br>Supervisor<br>Bhairahawa Multiple Campus</td> </tr> <tr> <td>Mr. [Vice Principal Name]<br>Vice Principal<br>Bhairahawa Multiple Campus</td> </tr> <tr> <td>Internal Examiner<br>Bhairahawa Multiple Campus</td> </tr> <tr> <td>External Examiner<br>Tribhuvan University</td> </tr> </table>
+Acknowledgement
+I would like to express my sincere gratitude to all those who have contributed to the successful completion of my internship and this report.
+
+First and foremost, I extend my heartfelt thanks to Sajilo Digital Pvt. Ltd. for providing me with the invaluable opportunity to intern as a QA and Frontend Developer. I am deeply indebted to my company mentor, Mr. Shailesh Mishra, for his expert guidance, continuous support, and insightful feedback throughout the internship. His mentorship was instrumental in enhancing my practical skills in ReactJS development and quality assurance.
+
+I am equally grateful to my college supervisor, Mr. Suraj Pandey, for his academic oversight, encouragement, and valuable suggestions during the internship and the report preparation process. His guidance ensured that my work remained aligned with the academic objectives of the BSc.CSIT program.
+
+My sincere appreciation goes to the entire team at Sajilo Digital for their collaborative spirit, support, and for fostering a professional and learning-oriented work environment. Their shared knowledge and experience greatly enriched my internship.
+
+Finally, I would like to thank my family and friends for their unwavering love, patience, and encouragement throughout my academic journey and this internship. Their support has been my constant source of strength.
+
+Sunil Paudyal
+Symbol No.: 30335
+BSc.CSIT
+Bhairahawa Multiple Campus
+
+Abstract
+This report presents a comprehensive account of the 10-week internship undertaken at Sajilo Digital Pvt. Ltd. as a QA and Frontend Developer. The primary focus of the internship was the design, development, and quality assurance of the Sushila Fancy Store Website, a responsive e-commerce platform built using ReactJS.
+
+The project involved implementing core e-commerce functionalities, including a product catalog, shopping cart, user authentication interface, and an admin panel. From a development perspective, the internship emphasized building modular and reusable React components, managing application state with Hooks, and creating responsive layouts using CSS and media queries. From a quality assurance standpoint, it involved systematic testing activities including functional testing, user interface (UI) testing, cross-browser compatibility testing, and bug reporting.
+
+This dual-role experience provided profound hands-on exposure to the complete frontend development lifecycle within an Agile environment. It significantly enhanced technical competencies in modern ReactJS practices and instilled a strong understanding of software quality assurance principles and methodologies. The internship successfully bridged theoretical knowledge with industry practices, equipping me with essential skills for a career in software development.
+
+Keywords: ReactJS, Frontend Development, Quality Assurance (QA), E-commerce, Responsive Web Design, Software Testing
+
+Table of Contents
+Chapter 1: Introduction
+1.1 Introduction
+1.2 Problem Statement
+1.3 Objectives
+1.4 Scope and Limitations
+1.5 Report Organization
+
+Chapter 2: Organization Details and Literature Review
+2.1 Introduction to the Organization
+2.2 Organizational Hierarchy
+2.3 Working Domains of the Organization
+2.4 Description of the Intern Department/Unit
+2.5 Literature Review / Related Study
+
+Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+3.2 Weekly Log
+3.3 Description of the Project(s) Involved
+3.4 Tasks / Activities Performed
+
+Chapter 4: Conclusion and Learning Outcomes
+4.1 Conclusion
+4.2 Learning Outcomes
+
+References
+
+Appendix
+
+Chapter 1: Introduction
+1.1 Introduction
+In the contemporary digital economy, e-commerce platforms are indispensable for businesses to expand their reach, enhance customer engagement, and drive sales. The development of such platforms requires a harmonious blend of intuitive frontend design, robust functionality, and rigorous quality assurance to ensure a seamless user experience. This internship report documents the process and outcomes of developing the Sushila Fancy Store Website, a ReactJS-based e-commerce application, during a 10-week internship at Sajilo Digital Pvt. Ltd.
+
+The project aimed to create a modern, fully responsive online store for fashion and accessories. The website features essential e-commerce modules: a dynamic product listing with filtering, a interactive shopping cart, user registration/login interfaces, and a content management dashboard. Undertaking the dual role of a Frontend Developer and QA Tester provided a holistic view of the software development lifecycle, from writing component logic to validating its correctness and usability.
+
+1.2 Problem Statement
+Prior to this project, Sushila Fancy Store lacked a professional digital storefront, limiting its market presence and sales potential. Potential customers had no centralized platform to browse products, check availability, or make purchases online. The existing challenges that necessitated this project included:
+
+Absence of an Online Store: No dedicated e-commerce website to showcase products and facilitate online transactions.
+
+Poor User Accessibility: Information about products, prices, and offers was not easily accessible to a wider audience.
+
+Limited Customer Interaction: No mechanism for users to create accounts, save preferences, or track orders.
+
+Inconsistent User Experience: Lack of a responsive design meant potential customers using mobile devices had a suboptimal experience.
+
+Unverified Software Quality: Without a structured QA process, the reliability, functionality, and performance of the web application could not be assured.
+
+1.3 Objectives
+The primary objectives of this internship project were:
+
+To design and develop a fully functional, responsive e-commerce website for Sushila Fancy Store using ReactJS.
+
+To implement key features including product display, cart management, user authentication, and a basic admin interface.
+
+To conduct comprehensive quality assurance testing to ensure the website is bug-free, user-friendly, and performs consistently across different browsers and devices.
+
+To apply modern frontend development practices such as component-based architecture, state management with Hooks, and responsive CSS.
+
+To document the development and testing processes for future maintenance and scalability.
+
+1.4 Scope and Limitations
+Scope:
+The scope of this project encompassed the frontend development and testing of the Sushila Fancy Store website.
+
+Development: Creating all user-facing components using ReactJS, managing state, implementing routing, and ensuring responsive design.
+
+Features: Product listing, filtering, shopping cart, user login/signup UI, and a static admin dashboard.
+
+Testing: Functional testing, UI/UX testing, cross-browser compatibility testing, and responsiveness testing.
+
+Deployment: Hosting the application on the Vercel platform.
+
+Limitations:
+
+Backend Integration: The project focused on the frontend; backend APIs were simulated using mock data (e.g., json-server). No actual payment gateway integration was implemented.
+
+Advanced Features: Features like real-time chat, advanced analytics, product recommendations, and a full-fledged Content Management System (CMS) were beyond the scope of this internship phase.
+
+Performance Testing: In-depth load, stress, and security testing were not conducted due to time constraints and project scope.
+
+1.5 Report Organization
+This report is structured into four chapters to provide a logical flow of information:
+
+Chapter 1: Introduction outlines the project context, identifies the problem, states the objectives, and defines the project's scope.
+
+Chapter 2: Organization Details and Literature Review provides background on Sajilo Digital Pvt. Ltd. and reviews relevant academic and technical literature.
+
+Chapter 3: Internship Activities details the day-to-day roles, weekly progress, project descriptions, and specific tasks performed.
+
+Chapter 4: Conclusion and Learning Outcomes summarizes the project's success and enumerates the professional and technical skills acquired.
+
+Chapter 2: Organization Details and Literature Review
+2.1 Introduction to the Organization
+Sajilo Digital Pvt. Ltd. is a dynamic IT solutions provider based in Bhairahawa, Nepal. The company specializes in delivering tailored digital products and services, including custom software development, web and mobile applications, digital marketing, and IT consultancy. Founded with a vision to empower businesses through technology, Sajilo Digital emphasizes the use of modern frameworks and agile methodologies to build scalable, efficient, and user-centric solutions. The company's ethos revolves around innovation, quality, and client satisfaction, making it an ideal environment for practical, industry-relevant learning.
+
+2.2 Organizational Hierarchy
+Sajilo Digital maintains a flat yet structured hierarchy to promote efficiency and open communication:
+
+Leadership/Management: Oversees business strategy, client relations, and overall operations.
+
+Project Management: Handles project planning, resource allocation, timeline management, and client communication.
+
+Development Team: Comprises Frontend Developers, Backend Developers, and Full-Stack Engineers responsible for building products.
+
+UI/UX Design Team: Creates wireframes, mockups, and design systems to ensure aesthetic and usable interfaces.
+
+Quality Assurance (QA) Team: Dedicated to testing software products, reporting bugs, and ensuring release quality.
+
+Digital Marketing Team: Manages the company's and clients' online presence and marketing campaigns.
+
+Interns: Integrated into project teams under the guidance of a mentor to contribute to real projects while learning.
+
+2.3 Working Domains of the Organization
+The company operates across several key domains in the technology sector:
+
+Web Application Development: Building responsive and dynamic websites using technologies like ReactJS, Next.js, Node.js, and PHP.
+
+Mobile Application Development: Developing cross-platform and native mobile apps.
+
+E-commerce Solutions: Creating online stores and marketplaces with integrated shopping features.
+
+Enterprise Software: Developing custom management systems, CRMs, and ERPs for businesses.
+
+Quality Assurance & Testing: Providing manual and automated testing services to ensure software reliability.
+
+IT Consultancy & Digital Strategy: Advising clients on technology adoption and digital transformation.
+
+2.4 Description of the Intern Department/Unit
+The internship program at Sajilo Digital is designed to bridge the gap between academic learning and industry requirements. Interns are treated as junior team members and are assigned to live projects. I was placed within the Frontend Development and QA unit, working under the direct supervision of my mentor, Mr. Shailesh Mishra.
+
+The department followed an Agile-like workflow with daily stand-ups, weekly sprint planning, and code reviews. As an intern, I was involved in the complete development sprint for the Sushila Fancy project—from understanding requirements and writing code to testing my own and others' work. This immersive experience provided deep insights into collaborative development, version control using Git, and the importance of writing clean, maintainable code alongside comprehensive tests.
+
+Table 2.1: Internship Duration
+
+Item	Details
+Start Date	11/17/2025
+Daily Hours	10:00 AM to 6:00 PM
+Working Days	Sunday to Friday
+Position	QA & Frontend Developer Intern
+Company Mentor	Mr. Shailesh Mishra
+College Supervisor	Mr. Suraj Pandey
+2.5 Literature Review / Related Study
+The development and testing of the Sushila Fancy website were grounded in established principles of web development and software engineering.
+
+Component-Based Architecture (ReactJS): The use of ReactJS aligns with modern frontend development paradigms that promote reusability, maintainability, and a clear separation of concerns. This approach, as detailed in the official React documentation and numerous texts like "Learning React" by Banks and Porcello (2017), allows for building complex UIs from isolated, manageable pieces.
+
+Responsive Web Design (RWD): The project adhered to the principles of RWD pioneered by Marcotte (2011), utilizing flexible grids, media queries, and responsive images to ensure the application rendered flawlessly across a wide range of devices, from desktops to smartphones.
+
+Software Quality Assurance (SQA): The QA activities were informed by fundamental SQA principles which assert that testing is an integral part of the development process, not a final phase. Resources from the ISTQB (International Software Testing Qualifications Board) and practical guides on frontend testing frameworks (like React Testing Library) emphasized the importance of early and continuous testing.
+
+E-commerce Usability: Studies on e-commerce usability, such as those by Nielsen Norman Group, highlight critical factors for success: clear product presentation, simple navigation, a streamlined checkout process, and building user trust. These principles directly influenced design decisions for the product pages, cart, and user authentication flows.
+
+This synthesis of literature and best practices provided a solid theoretical foundation that guided the technical implementation and quality strategies throughout the project.
+
+Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+During my internship, I was entrusted with a hybrid role that encompassed both development and testing duties for the Sushila Fancy Store project. My key responsibilities included:
+
+As a Frontend Developer:
+
+Developing reusable, modular React components (ProductCard, Navbar, CartSidebar, etc.).
+
+Implementing application state management using React Hooks (useState, useEffect, useContext).
+
+Creating responsive page layouts and components using CSS Flexbox, Grid, and media queries.
+
+Implementing client-side routing using react-router-dom for seamless navigation.
+
+Integrating with mock REST APIs to fetch and display product data.
+
+Ensuring code quality through adherence to ESLint rules and participating in peer code reviews.
+
+As a QA Tester:
+
+Designing and executing detailed test cases for all implemented features.
+
+Performing functional testing to verify features worked as per requirements.
+
+Conducting UI/UX testing to check for design consistency, alignment, and visual bugs.
+
+Testing cross-browser compatibility (Chrome, Firefox, Safari) and responsiveness on various screen sizes.
+
+Logging identified bugs systematically in a shared spreadsheet, including steps to reproduce, expected vs. actual results, and severity.
+
+Performing regression testing after bug fixes to ensure no new issues were introduced.
+
+3.2 Weekly Log
+A summary of key activities, learnings, and progress for each week of the 10-week internship is presented below.
+
+Weekly Internship Log
+
+Name: Sunil Paudyal
+Project: Sushila Fancy Store Website
+Week No: 1
+Date: 11/17/2025 - 11/23/2025
+
+Responsibilities: Onboarding and project familiarization.
+
+Activities: Attended company orientation. Met the mentor and team. Studied the project requirement document (PRD). Set up the development environment (Node.js, VS Code, Git).
+
+Observation: Understanding business requirements clearly is the first critical step. Effective communication with the mentor sets the right direction.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 2
+Date: 11/24/2025 - 11/30/2025
+
+Responsibilities: Project planning and UI/UX review.
+
+Activities: Analyzed provided UI/UX Figma mockups. Broke down the UI into logical React components. Set up the project repository and initial file structure.
+
+Observation: Planning the component hierarchy before coding saves significant refactoring time later.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 3
+Date: 12/01/2025 - 12/07/2025
+
+Responsibilities: Development of core layout and static components.
+
+Activities: Created the basic layout components: Header, Footer, Navigation. Built static versions of the Homepage and Product Listing page.
+
+Observation: Building a solid layout foundation is crucial for the consistent look and feel of the entire application.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 4
+Date: 12/08/2025 - 12/14/2025
+
+Responsibilities: Implementing dynamic features and state.
+
+Activities: Integrated mock API using json-server. Fetched and displayed product data dynamically. Implemented basic product filtering by category.
+
+Observation: Using mock APIs allows frontend development to proceed independently before the backend is ready.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 5
+Date: 12/15/2025 - 12/21/2025
+
+Responsibilities: Shopping cart functionality.
+
+Activities: Built the Cart context using useContext and useReducer to manage cart state globally. Implemented "Add to Cart," update quantity, and remove item features.
+
+Observation: Global state management is essential for features that need to be accessed across multiple components.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 6
+Date: 12/22/2025 - 12/28/2025
+
+Responsibilities: User authentication UI and responsive design polish.
+
+Activities: Created Login and Signup page components (frontend only). Applied advanced responsive CSS techniques to ensure perfect display on mobile devices.
+
+Observation: Mobile-first design is not just a trend but a necessity given current web traffic patterns.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 7
+Date: 12/29/2025 - 01/04/2026
+
+Responsibilities: Initiation of QA testing phase.
+
+Activities: Wrote comprehensive test cases for all completed features. Started functional testing of the product listing, filtering, and cart modules.
+
+Observation: Writing test cases helps you think like an end-user and often reveals ambiguous requirements.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 8
+Date: 01/05/2026 - 01/11/2026
+
+Responsibilities: Intensive testing and bug reporting.
+
+Activities: Conducted UI/UX and cross-browser testing. Logged over 15+ bugs in the tracking sheet, ranging from minor UI glitches to functional flaws. Worked with the developer (myself) to prioritize fixes.
+
+Observation: A well-documented bug report is half the solution; it drastically reduces the time needed for the developer to understand and fix the issue.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 9
+Date: 01/12/2026 - 01/18/2026
+
+Responsibilities: Bug fixing, optimization, and regression testing.
+
+Activities: Addressed all high and medium-priority bugs. Optimized image loading and component performance. Conducted regression testing to ensure fixes didn't break existing functionality.
+
+Observation: The development-testing-fixing cycle is iterative. Patience and attention to detail are key in the final stages.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+Week No: 10
+Date: 01/19/2026 - 01/25/2026
+
+Responsibilities: Final deployment, documentation, and handover.
+
+Activities: Deployed the final application on Vercel. Prepared final project documentation and a demo for the team. Compiled the internship report.
+
+Observation: Deployment and documentation are critical final steps that mark the transition of a project from development to production and future maintenance.
+
+Mentor's Approval: [Signature Line for Mr. Shailesh Mishra]
+
+3.3 Description of the Project(s) Involved During Internship
+Primary Project: Sushila Fancy Store Website
+This was the main project during the internship. It is a single-page application (SPA) built with ReactJS that simulates a complete online shopping experience for a fashion retail store.
+
+Live URL: https://sushilafancy.vercel.app
+
+Core Features:
+
+Product Browsing: Displays products with images, names, prices, and "Add to Cart" buttons.
+
+Filtering: Allows users to filter products by category (e.g., Men, Women, Accessories).
+
+Shopping Cart: A persistent cart where users can add/remove items and update quantities. The cart total updates in real-time.
+
+User Interface: Clean, responsive design that works on all device sizes.
+
+Mock Authentication: Frontend pages for user login and signup (connected to a mock backend).
+
+Technology Stack: ReactJS, CSS3, React Router, Context API + Hooks for state management, Vercel for hosting.
+
+3.4 Tasks / Activities Performed
+A consolidated list of major technical and professional tasks performed includes:
+
+Setting up and configuring the React development environment.
+
+Translating UI/UX designs from Figma into functional React components.
+
+Implementing client-side routing for multiple application views.
+
+Managing global application state for the shopping cart using Context API.
+
+Writing CSS for responsive layouts and interactive element states (hover, active).
+
+Creating and executing detailed manual test cases for all user stories.
+
+Identifying, documenting, and tracking software defects to closure.
+
+Performing cross-browser and cross-device compatibility testing.
+
+Using Git for version control and collaborating on a shared code repository.
+
+Deploying the application to a cloud platform (Vercel).
+
+Documenting code, test cases, and project processes.
+
+Chapter 4: Conclusion and Learning Outcomes
+4.1 Conclusion
+The 10-week internship at Sajilo Digital Pvt. Ltd. was an immensely productive and enlightening experience. The successful development and testing of the Sushila Fancy Store Website provided a practical platform to apply and significantly expand my knowledge of ReactJS and Software Quality Assurance.
+
+The project successfully met its core objectives: delivering a responsive, interactive e-commerce frontend and establishing a baseline of software quality through systematic testing. Working in a dual role offered a unique perspective, emphasizing that writing code and verifying its correctness are two sides of the same coin, both essential for delivering a reliable product.
+
+This internship effectively bridged the gap between academic concepts and real-world software development practices. It not only enhanced my technical toolkit but also honed professional skills such as time management, teamwork, and communication within a project setting.
+
+4.2 Learning Outcomes
+The internship yielded substantial learning outcomes across technical, professional, and personal domains:
+
+Technical Skills:
+
+Advanced ReactJS Proficiency: Gained deep, hands-on experience with functional components, Hooks (useState, useEffect, useContext, useReducer), and the Context API for state management.
+
+Frontend Development Best Practices: Mastered creating responsive, accessible, and modular user interfaces using modern CSS and component-based architecture.
+
+QA Fundamentals: Learned the complete manual testing lifecycle—from writing test cases and executing them to logging bugs and performing regression testing.
+
+Development Tools: Became proficient with essential tools like Git for version control, VS Code, and Vercel for deployment.
+
+Professional Skills:
+
+Agile Methodology Exposure: Experienced working in an iterative development cycle with regular feedback loops.
+
+Problem-Solving: Enhanced ability to debug code, identify root causes of bugs, and devise effective solutions.
+
+Documentation: Learned the importance of clear documentation for code, tests, and project reports.
+
+Communication: Improved technical communication skills through daily stand-ups, discussing requirements with my mentor, and writing clear bug reports.
+
+Overall Growth:
+This internship transformed theoretical knowledge into practical competence. It instilled a quality-first mindset and provided the confidence to contribute effectively to software development teams in a professional environment.
+
+References
+Banks, A., & Porcello, E. (2017). Learning React: Modern Patterns for Developing React Apps. O'Reilly Media.
+
+React Documentation. (n.d.). Retrieved from https://reactjs.org/docs/getting-started.html
+
+Marcotte, E. (2011). Responsive Web Design. A Book Apart.
+
+ISTQB Foundation Level Syllabus. (2018). International Software Testing Qualifications Board.
+
+Nielsen, J., & Loranger, H. (2006). Prioritizing Web Usability. New Riders Press.
+
+MDN Web Docs. (n.d.). CSS: Cascading Style Sheets. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
+
+Vercel Documentation. (n.d.). Retrieved from https://vercel.com/docs
+
+Appendix
+The appendix contains supplementary material related to the internship project.
+
+A1: Website Screenshots
+
+Home Page
+
+Product Listing Page
+
+Shopping Cart Popover
+
+Mobile View Examples
+
+A2: Sample Test Case Document
+(Example of a test case written during the QA phase)
+
+Test Case ID: TC_CART_01
+
+Module: Shopping Cart
+
+Description: Verify that a product can be added to the cart from the product listing page.
+
+Pre-condition: User is on the homepage with products loaded.
+
+Test Steps:
+
+Click the "Add to Cart" button on any product card.
+
+Click on the cart icon in the header.
+
+Expected Result: The cart sidebar opens, displaying the selected product with correct name, price, and quantity (1).
+
+Status: Pass/Fail
+
+Bug ID: (Linked if test failed)
+
+A3: Project Repository Link
+
+GitHub Repository: [Link to the project's code repository]
+
+A4: Deployment Link
+
+Live Website: https://sushilafancy.vercel.app

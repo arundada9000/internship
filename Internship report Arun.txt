@@ -1,0 +1,503 @@
+# Acknowledgement
+
+I would like to express my sincere gratitude to all those individuals and institutions who contributed directly and indirectly to the successful completion of my internship and this report.
+
+First and foremost, I would like to thank Sajilo Digital Pvt. Ltd. for providing me with the opportunity to complete my 10-week internship as a Frontend Developer. I am especially grateful to my company mentor, Mr. Shailesh Mishra, for his continuous guidance, technical support, and constructive feedback throughout the internship period. His mentorship played a vital role in strengthening my practical understanding of modern frontend development, particularly using Next.js, and in helping me successfully develop the official company website sajilodigital.com.np.
+
+I would also like to extend my sincere thanks to my college supervisor, Mr. Suraj Pandey, Bhairahawa Multiple Campus, for his academic supervision, encouragement, and valuable suggestions during the internship and report preparation. His guidance ensured that the internship objectives were aligned with the academic requirements of the Bachelor of Science in Computer Science and Information Technology (BSc.CSIT) program.
+
+I am thankful to the entire team at Sajilo Digital Pvt. Ltd. for creating a professional and supportive working environment. Their cooperation and willingness to share knowledge helped me gain real-world experience in frontend development, teamwork, and industry practices.
+
+Finally, I would like to express my heartfelt gratitude to my family and friends for their continuous encouragement and support throughout my academic journey and internship period. Their motivation played an important role in the successful completion of this work.
+
+Arun Neupane
+BSc.CSIT
+Bhairahawa Multiple Campus
+30282
+
+# Abstract
+
+This internship report presents the outcomes and experiences gained during a 10-week internship at Sajilo Digital Pvt. Ltd., where I worked as a Frontend Developer. The primary objective of the internship was to gain practical industry exposure and apply academic knowledge to real-world web development projects. During the internship period, I was actively involved in designing and developing the official company website sajilodigital.com.np using Next.js, a modern React-based framework.
+
+The internship focused on developing responsive, performant, and user-friendly web interfaces following industry best practices. Core frontend concepts such as component-based architecture, client-side and server-side rendering, routing, reusable UI components, and performance optimization were implemented throughout the project. The website was designed to represent the company’s digital presence effectively while ensuring accessibility, scalability, and maintainability.
+
+Through this internship, I gained hands-on experience in professional frontend development workflows, version control, project structuring, and collaboration within a development team. The internship significantly enhanced my technical skills, problem-solving abilities, and understanding of modern web technologies. Overall, this internship served as a valuable bridge between academic learning and professional software development practices.
+
+Keywords: Next.js, Frontend Development, React, Responsive Design, Web Development
+
+# Chapter 1: Introduction
+1.1 Introduction
+In the modern digital era, a professional and well-structured website plays a crucial role in establishing an organization’s online presence and credibility. A company website serves as the primary medium through which users access information about services, vision, and expertise. With the rapid growth of web technologies, modern frameworks such as Next.js have enabled developers to build fast, scalable, and search-engine-optimized web applications.
+
+This project focuses on the design and development of the official website of Sajilo Digital Pvt. Ltd. using Next.js. The website sajilodigital.com.np is developed to represent the company’s digital identity, showcase its services, and provide an engaging and responsive user experience. The project includes multiple sections such as Home, About Us, Services, Portfolio, and Contact, designed with a clean and modern user interface.
+
+The website is developed following component-based architecture, ensuring maintainability and scalability. Responsive design principles are applied to ensure compatibility across various devices such as desktops, tablets, and mobile phones. Performance optimization and structured routing are implemented to enhance user experience and accessibility. This project demonstrates the practical application of modern frontend development techniques to create a real-world, production-ready web application.
+
+# 1.2 Problem Statement
+
+Many growing digital companies face challenges in establishing a strong online presence due to outdated, slow, or poorly structured websites. Without a modern and optimized website, organizations struggle to communicate their services effectively and engage potential clients.
+
+Prior to this project, there was a need for a professional, responsive, and performance-optimized website that could accurately represent Sajilo Digital Pvt. Ltd. and its service offerings. Common problems identified include:
+
+Lack of a modern, scalable web platform built with current technologies.
+
+Poor responsiveness across different screen sizes and devices.
+
+Limited performance and search engine optimization.
+
+Difficulty in maintaining and updating content with traditional static websites.
+
+This project aims to address these issues by developing a modern company website using Next.js that ensures performance, responsiveness, and maintainability.
+
+# 1.3 Objectives
+
+The main objectives of this project are:
+
+To design and develop a modern and professional company website for Sajilo Digital Pvt. Ltd.
+
+To implement a responsive user interface compatible with multiple devices.
+
+To utilize Next.js features for efficient routing and performance optimization.
+
+To apply component-based architecture for reusability and scalability.
+
+To enhance user experience through clean design and structured content presentation.
+
+To strengthen the company’s digital presence and accessibility.
+
+# 1.4 Scope and Limitation
+Scope
+
+The scope of this project includes the complete frontend development of the official website of Sajilo Digital Pvt. Ltd. using Next.js. The website covers essential company information, services, and contact details. Modern UI design practices, responsive layouts, and performance-focused development are applied. The project demonstrates real-world frontend development suitable for production deployment.
+
+Limitations
+
+The limitations of the project are as follows:
+
+The project primarily focuses on frontend development; backend functionalities are limited.
+
+Advanced features such as real-time analytics and dynamic content management are not included.
+
+The website requires internet connectivity for access.
+
+Future scalability and feature expansion require continued development beyond the project timeline.
+
+1.5 Report Organization
+
+This report is organized into the following chapters:
+
+Chapter 1: Introduction
+Describes the project overview, problem statement, objectives, scope, limitations, and report structure.
+
+Chapter 2: Organization Details and Literature Review
+Provides an overview of Sajilo Digital Pvt. Ltd., its organizational structure, working domains, and related studies.
+
+Chapter 3: Internship Activities
+Includes roles and responsibilities, weekly activities, and detailed project implementation.
+
+Chapter 4: Conclusion and Learning Outcomes
+Summarizes the project outcomes and learning experiences gained during the internship.
+
+# Chapter 2: Organization Details and Literature Review
+# 2.1 Introduction to Organization
+
+Sajilo Digital Pvt. Ltd. is a Nepal-based digital solutions company that focuses on delivering modern, efficient, and scalable technology solutions to businesses. The company provides services in web development, software solutions, digital transformation, and IT consulting, aiming to help organizations establish and strengthen their digital presence.
+
+Sajilo Digital Pvt. Ltd. emphasizes the use of modern technologies and industry best practices to deliver high-quality digital products. The organization follows a client-centric approach, ensuring that solutions are tailored to meet specific business requirements. By adopting modern frontend and backend technologies, the company ensures performance, scalability, and maintainability in its products.
+
+The internship project carried out under Sajilo Digital Pvt. Ltd. involved the design and development of the company’s official website using Next.js, aligning with the organization’s goal of maintaining a strong and professional online identity.
+
+# 2.2 Organizational Hierarchy
+
+Sajilo Digital Pvt. Ltd. follows a structured organizational hierarchy to ensure efficient project execution and team collaboration. The organization consists of management, technical teams, and supporting units that work together to deliver digital solutions.
+
+The general organizational hierarchy includes:
+
+Management Team
+Responsible for strategic planning, decision-making, and overall business operations.
+
+Technical Team
+Includes frontend developers, backend developers, and UI/UX designers responsible for designing, developing, and maintaining digital products.
+
+Quality Assurance Team
+Ensures product quality through testing, debugging, and performance evaluation.
+
+Marketing and Communication Team
+Handles branding, digital marketing, client communication, and business growth strategies.
+
+Interns and Trainees
+Assist development teams while gaining practical industry experience under mentor supervision.
+
+This structured hierarchy enables effective communication, task delegation, and timely project completion.
+
+# 2.3 Working Domains of Organization
+
+Sajilo Digital Pvt. Ltd. operates across multiple domains in the digital and IT sector. The major working domains of the organization are:
+
+Web Development
+Design and development of responsive, high-performance websites using modern technologies such as Next.js, React, and related frameworks.
+
+Software Development
+Development of customized software solutions tailored to client requirements.
+
+UI/UX Design
+Designing user-centered interfaces that enhance usability and user experience.
+
+Digital Solutions and Consulting
+Providing technical consultation and digital strategies to help businesses optimize their operations.
+
+Maintenance and Support Services
+Ongoing support, updates, and optimization of digital products to ensure reliability and performance.
+
+# 2.4 Description of Intern Department/Unit
+
+The internship program at Sajilo Digital Pvt. Ltd. is designed to provide students with hands-on experience in real-world projects. Interns are assigned to technical teams based on their skill sets and areas of interest.
+
+As a frontend development intern, I worked under the guidance of a company mentor and collaborated with the development team. The intern department emphasizes learning through practical implementation, code reviews, and continuous feedback. Interns are encouraged to follow professional development practices, including clean coding standards, version control, and collaborative workflows.
+
+The primary responsibility during the internship was the development of the company’s official website using Next.js, allowing direct exposure to production-level frontend development.
+
+Table 2.1: Internship Duration 
+Start date of Internship 	11/17/2025 
+Hours 				10AM to 6PM 
+Working Days 			Sunday to Friday 
+Position 			Frontend Developer 
+Supervisor 			Suraj Pandey
+Mentor 				Shailesh Mishra
+
+# 2.5 Literature Review / Related Study
+
+Modern web development has evolved significantly with the introduction of component-based frameworks and performance-oriented technologies. Next.js, built on top of React, provides features such as server-side rendering, static site generation, and optimized routing, which enhance application performance and search engine visibility.
+
+According to Vercel documentation, Next.js improves page load speed and SEO by pre-rendering pages and optimizing assets. Marcotte’s principles of responsive web design emphasize flexible layouts and media queries to ensure compatibility across devices, which were applied in this project.
+
+Research in frontend development highlights that component-based architecture improves code reusability and maintainability, making it suitable for scalable web applications. Clean UI design and optimized user experience significantly impact user engagement and trust in digital platforms, reinforcing the importance of structured and visually appealing company websites.
+
+These studies and practices guided the design and development of the Sajilo Digital Pvt. Ltd. website, ensuring modern standards in performance, responsiveness, and usability.
+
+# Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+
+During the internship at Sajilo Digital Pvt. Ltd., I worked as a Frontend Developer and was primarily responsible for the design and development of the company’s official website sajilodigital.com.np using Next.js. The tasks assigned during the internship were directly related to frontend development and modern web technologies.
+
+The major roles and responsibilities performed during the internship include:
+
+Designing and developing responsive user interfaces using Next.js.
+
+Creating reusable and modular components following component-based architecture.
+
+Implementing routing and page structure using Next.js routing system.
+
+Ensuring cross-device compatibility using responsive design techniques.
+
+Optimizing website performance for faster loading and better user experience.
+
+Collaborating with the mentor to refine UI design and functionality.
+
+Debugging and fixing frontend-related issues.
+
+Updating and maintaining website content as per company requirements.
+
+3.2 Weekly Log
+
+The weekly log represents a summary of activities performed during the internship period. It highlights the progression of tasks, learning outcomes, and observations made throughout the 10-week internship. The log reflects practical exposure to real-world frontend development and professional working practices.
+
+Weekly Internship Log – Week 1
+
+Name: Arun Neupane
+Project: Company Website Development using Next.js
+Week No: 1
+
+Responsibilities:
+
+Understanding company requirements and project scope.
+
+Activities:
+
+Attended internship orientation.
+
+Discussed project objectives with mentor.
+
+Reviewed existing website structure and design expectations.
+
+Observation:
+
+Clear requirement analysis is crucial before starting development.
+
+Communication with mentor helps align technical goals.
+
+Weekly Internship Log – Week 2
+
+Week No: 2
+
+Responsibilities:
+
+Planning website structure and layout.
+
+Activities:
+
+Analyzed modern company website designs.
+
+Planned page structure (Home, About, Services, Contact).
+
+Created basic layout flow for the website.
+
+Observation:
+
+Proper planning simplifies development and reduces rework.
+
+Weekly Internship Log – Week 3
+
+Week No: 3
+
+Responsibilities:
+
+Setting up development environment.
+
+Activities:
+
+Set up Next.js project environment.
+
+Organized folder structure and components.
+
+Initialized version control.
+
+Observation:
+
+Clean project structure improves maintainability.
+
+Weekly Internship Log – Week 4
+
+Week No: 4
+
+Responsibilities:
+
+Developing core components.
+
+Activities:
+
+Developed reusable UI components.
+
+Implemented navigation and routing.
+
+Applied basic styling.
+
+Observation:
+
+Component reusability improves development efficiency.
+
+Weekly Internship Log – Week 5
+
+Week No: 5
+
+Responsibilities:
+
+Responsive design implementation.
+
+Activities:
+
+Implemented responsive layouts using CSS.
+
+Tested UI on different screen sizes.
+
+Observation:
+
+Responsive design is essential for modern web applications.
+
+Weekly Internship Log – Week 6
+
+Week No: 6
+
+Responsibilities:
+
+Performance and UI optimization.
+
+Activities:
+
+Optimized images and layout.
+
+Improved page loading performance.
+
+Observation:
+
+Performance optimization enhances user experience.
+
+Weekly Internship Log – Week 7
+
+Week No: 7
+
+Responsibilities:
+
+Content integration.
+
+Activities:
+
+Integrated company content and service details.
+
+Updated UI based on mentor feedback.
+
+Observation:
+
+Content clarity is important for professional presentation.
+
+Weekly Internship Log – Week 8
+
+Week No: 8
+
+Responsibilities:
+
+Testing and debugging.
+
+Activities:
+
+Fixed UI inconsistencies.
+
+Conducted cross-browser testing.
+
+Observation:
+
+Thorough testing ensures reliability.
+
+Weekly Internship Log – Week 9
+
+Week No: 9
+
+Responsibilities:
+
+Final refinement.
+
+Activities:
+
+Improved UI alignment and spacing.
+
+Finalized website structure.
+
+Observation:
+
+Attention to detail improves overall quality.
+
+Weekly Internship Log – Week 10
+
+Week No: 10
+
+Responsibilities:
+
+Final review and documentation.
+
+Activities:
+
+Reviewed project with mentor.
+
+Prepared documentation and report.
+
+Observation:
+
+Documentation is essential for future maintenance.
+
+# 3.3 Description of the Project(s) Involved During Internship
+
+During the internship at Sajilo Digital Pvt. Ltd., I worked on multiple projects that enhanced my practical skills in frontend development and basic backend/network-based systems. These projects involved the use of Next.js, React, and Python, and provided exposure to real-world problem-solving, performance considerations, and user-focused design. The major projects undertaken during the internship are described below.
+
+Project 1: Company Website – Sajilo Digital Pvt. Ltd.
+
+The primary project during the internship was the design and development of the official website of Sajilo Digital Pvt. Ltd. using Next.js. The objective of this project was to create a modern, responsive, and professional website that represents the company’s services and digital identity.
+
+The website includes essential sections such as Home, About Us, Services, and Contact. Component-based architecture was used to ensure reusability and scalability. Responsive design techniques were applied to ensure compatibility across desktops, tablets, and mobile devices. Performance optimization and clean UI design were prioritized to enhance user experience.
+
+Website URL: https://sajilodigital.com.np
+
+Project 2: Python WiFi Home Server
+
+Another significant project involved the development of a Python-based home server designed to operate within a local WiFi network. The objective of this project was to understand server-client communication, local networking, and lightweight backend services.
+
+The server allows devices connected to the same WiFi network to access services hosted on the local machine. This project helped in understanding networking concepts, request handling, and basic backend logic using Python. It also provided exposure to system-level thinking beyond frontend development.
+
+GitHub Repository:
+https://github.com/sajilodigital9000/python-server
+
+Project 3: Color Picker Web Application
+
+The Color Picker project is a lightweight web application developed using modern frontend technologies. The application allows users to select and preview colors easily, making it useful for designers and developers.
+
+This project focused on user interaction, dynamic state updates, and clean UI design. The application emphasizes simplicity, responsiveness, and instant feedback, improving understanding of frontend interactivity and usability principles.
+
+Live Demo:
+https://easycolorpicker.vercel.app/
+
+Project 4: Quiz Web Application
+
+The Quiz Application was developed as an interactive web-based system that allows users to attempt multiple-choice questions and receive immediate feedback. The project focused on managing application state, handling user input, and dynamically rendering content.
+
+This project improved my understanding of conditional rendering, state management, and user flow in frontend applications. Emphasis was placed on responsiveness and clarity of user interaction to ensure a smooth experience across devices.
+
+Live Demo:
+https://sajiloquiz.vercel.app/
+
+Impact of Additional Projects
+
+Working on these additional projects alongside the main company website significantly broadened my technical exposure. These projects strengthened my understanding of frontend development, local networking concepts, and practical software design. They also demonstrated the ability to handle multiple project requirements while maintaining code quality and usability.
+
+3.4 Tasks / Activities Performed
+
+During the internship, the following tasks were performed:
+
+Frontend development using Next.js.
+
+UI component creation and reuse.
+
+Responsive layout implementation.
+
+Website optimization and testing.
+
+Content integration and maintenance.
+
+Debugging and refinement based on feedback.
+
+# 4.1 Conclusion
+
+The development of the official website for Sajilo Digital Pvt. Ltd. using Next.js was a valuable and practical project that provided real-world exposure to modern frontend web development. The project successfully achieved its objective of creating a professional, responsive, and performance-optimized website that represents the company’s digital identity and services.
+
+Through this project, modern web development concepts such as component-based architecture, responsive design, structured routing, and performance optimization were effectively applied. The use of Next.js enabled efficient page rendering and improved user experience. The website was designed with a clean user interface and structured content to ensure accessibility and ease of navigation across different devices.
+
+Overall, the project demonstrates the practical application of academic knowledge in a real industry setting. It enhanced my understanding of professional development workflows and strengthened my confidence in developing production-ready web applications. The successful completion of this project reflects the importance of modern frameworks in building scalable and maintainable web solutions.
+
+4.2 Learning Outcomes
+
+This project provided significant learning outcomes in both technical and professional aspects of frontend development. The key learning outcomes achieved are as follows:
+
+Gained hands-on experience in developing a real-world company website using Next.js.
+
+Improved understanding of component-based architecture and reusable UI design.
+
+Learned to implement responsive design principles for cross-device compatibility.
+
+Enhanced skills in frontend performance optimization and clean code practices.
+
+Developed problem-solving abilities through debugging and UI refinement.
+
+Gained experience in working under mentorship and following professional workflows.
+
+Improved documentation and reporting skills required for software projects.
+
+The knowledge and experience gained through this project have strengthened my foundation in frontend development and prepared me for future challenges in web and software development. This project served as an effective bridge between academic learning and professional practice.
+
+References
+
+Banks, A., & Porcello, E. (2017). Learning React: Modern patterns for developing React applications. O’Reilly Media.
+
+Marcotte, E. (2011). Responsive Web Design. A Book Apart.
+
+Vercel Inc. (n.d.). Next.js Documentation. Retrieved from
+https://nextjs.org/docs
+
+React Team. (n.d.). React Documentation. Retrieved from
+https://react.dev/learn
+
+Mozilla Developer Network. (n.d.). HTML, CSS, and JavaScript Documentation. Retrieved from
+https://developer.mozilla.org/
+
+CSS-Tricks. (n.d.). A Complete Guide to Flexbox. Retrieved from
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Sajilo Digital Pvt. Ltd. (2024). Official Website. Retrieved from
+https://sajilodigital.com.np

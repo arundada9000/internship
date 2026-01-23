@@ -1,0 +1,447 @@
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Mentor's Recommendation from Company
+
+I am pleased to provide my strong recommendation for BIJAY KUMAR CHAUDHARY based on his exceptional performance during his internship at Sajilo Digital Pvt. Ltd. As his mentor, I supervised his work on the complete redesign and modernization of the Code for Change Nepal website, where he served as a Frontend Developer specializing in ReactJS.
+
+Throughout his internship, Bijay demonstrated impressive technical skills and creativity in transforming a static HTML-based website into a dynamic, modern React application. He took ownership of the entire frontend redesign process, showcasing proficiency in component architecture, state management, and responsive design implementation.
+
+Bijay exhibited excellent problem-solving abilities when addressing the challenges of migrating from a traditional HTML structure to a component-based React architecture. His attention to detail in implementing the new design system, maintaining visual consistency, and ensuring optimal performance was commendable. He consistently delivered high-quality code and showed remarkable initiative in suggesting and implementing UX improvements.
+
+His ability to work independently while maintaining clear communication, his dedication to creating a polished user interface, and his commitment to delivering production-ready code made him a valuable contributor to our team.
+
+I hereby endorse the internship report entitled "Modernization and Redesign of Code for Change Nepal Website Using ReactJS" prepared by Bijay Kumar Chaudhary under my supervision. This project successfully demonstrates his frontend development capabilities and satisfactorily fulfills the practical requirements for the Bachelor of Science in Computer Science and Information Technology degree. I highly recommend it for evaluation.
+
+Mr. Shailesh Mishra
+Project Mentor
+Sajilo Digital Pvt. Ltd.
+Bhairahawa, Nepal
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Supervisor's Recommendation
+
+This is to certify that the internship report titled "Modernization and Redesign of Code for Change Nepal Website Using ReactJS" has been prepared by Bijay Kumar Chaudhary under my academic supervision. This report is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+As his college supervisor, I monitored Bijay's progress throughout his internship at Sajilo Digital Pvt. Ltd. He effectively applied his knowledge of modern web technologies to completely redesign and rebuild an existing website using ReactJS, demonstrating technical proficiency and understanding of component-based architecture. His report comprehensively documents the migration process, technical challenges, design decisions, and implementation details.
+
+The report is well-structured, technically sound, and demonstrates a mature understanding of modern frontend development practices. It meets the academic standards expected for the BSc.CSIT program.
+
+Mr. Suraj Pandey
+Supervisor, BSc.CSIT
+Bhairahawa Multiple Campus
+
+TRIBHUWAN UNIVERSITY
+Institute of Science and Technology
+Bhairahawa Multiple Campus
+
+Letter of Approval
+
+This is to certify that the internship report "Modernization and Redesign of Code for Change Nepal Website Using ReactJS" prepared by Bijay Kumar Chaudhary is submitted in partial fulfillment of the requirements for the Bachelor of Science in Computer Science and Information Technology degree.
+
+We have reviewed this report and find it comprehensive in scope, technically detailed, and professionally organized. It adequately represents the substantial work completed during the internship period and satisfactorily meets the academic criteria for the degree.
+
+Mr. Suraj Pandey
+Supervisor
+Bhairahawa Multiple Campus
+
+Mr. [Vice Principal Name]
+Vice Principal
+Bhairahawa Multiple Campus
+
+Internal Examiner
+Bhairahawa Multiple Campus
+
+External Examiner
+Tribhuvan University
+
+Acknowledgement
+
+I extend my sincere gratitude to all those who supported and guided me throughout my internship journey and during the preparation of this report.
+
+My deepest appreciation goes to Sajilo Digital Pvt. Ltd. for providing me with the invaluable opportunity to work as a Frontend Developer Intern. I am profoundly grateful to my company mentor, Mr. Shailesh Mishra, for his exceptional guidance, technical insights, and constant encouragement. His mentorship was instrumental in helping me successfully redesign and modernize the Code for Change Nepal website.
+
+I extend my heartfelt thanks to my college supervisor, Mr. Suraj Pandey, for his academic guidance, constructive feedback, and support throughout the internship and report writing process. His supervision ensured my work maintained academic rigor while solving real-world problems.
+
+I am also thankful to the entire technical team at Sajilo Digital for their collaborative spirit, knowledge sharing, and supportive work environment that greatly enriched my learning experience.
+
+Finally, I express my eternal gratitude to my family and friends for their unwavering support, patience, and encouragement throughout my academic and professional journey.
+
+Bijay Kumar Chaudhary
+Symbol No.: [Bijay's Symbol Number]
+BSc.CSIT
+Bhairahawa Multiple Campus
+
+Abstract
+
+This report documents the 10-week internship completed at Sajilo Digital Pvt. Ltd. as a Frontend Developer, focusing on the complete modernization and redesign of the Code for Change Nepal website. The primary objective was to migrate an existing static HTML-based website to a dynamic, component-based ReactJS application with improved user experience, performance, and maintainability.
+
+The project involved analyzing the existing HTML structure, designing a new component architecture, implementing a responsive design system, and developing interactive features using ReactJS. Key technical implementations included creating reusable React components, implementing client-side routing with React Router, managing application state with React Hooks and Context API, optimizing performance through code splitting and lazy loading, and ensuring full responsiveness across all device types.
+
+The redesigned website features a modern user interface, improved navigation structure, dynamic content rendering, interactive elements, and enhanced performance metrics. The migration from static HTML to ReactJS provided the organization with a more maintainable codebase, better development workflow, and foundation for future feature additions.
+
+This internship provided comprehensive exposure to the process of modernizing legacy web applications, component-based architecture design, responsive web development, and performance optimization techniques using modern frontend technologies.
+
+Keywords: ReactJS, Frontend Development, Website Modernization, Component Architecture, Responsive Design, Performance Optimization, Legacy Migration, Web Redesign
+
+Table of Contents
+
+Chapter 1: Introduction
+1.1 Introduction
+1.2 Problem Statement
+1.3 Objectives
+1.4 Scope and Limitations
+1.5 Report Organization
+
+Chapter 2: Organization Details and Literature Review
+2.1 Introduction to the Organization
+2.2 Organizational Hierarchy
+2.3 Working Domains of the Organization
+2.4 Description of the Intern Department/Unit
+2.5 Literature Review / Related Study
+
+Chapter 3: Internship Activities
+3.1 Roles and Responsibilities
+3.2 Weekly Log
+3.3 Description of the Project(s) Involved
+3.4 Tasks / Activities Performed
+
+Chapter 4: Conclusion and Learning Outcomes
+4.1 Conclusion
+4.2 Learning Outcomes
+
+References
+
+Appendix
+
+Chapter 1: Introduction
+
+1.1 Introduction
+In the rapidly evolving digital landscape, non-profit organizations like Code for Change Nepal require modern, engaging, and performant websites to effectively communicate their mission, showcase their work, and engage with volunteers and donors. This internship report details my work as a Frontend Developer at Sajilo Digital Pvt. Ltd., where I undertook the complete redesign and modernization of the Code for Change Nepal website from a static HTML-based platform to a dynamic ReactJS application.
+
+The original website, built with traditional HTML, CSS, and JavaScript, faced limitations in maintainability, user engagement, and performance. The migration to ReactJS provided an opportunity to implement modern web development practices, including component-based architecture, efficient state management, and optimized performance. The redesigned platform aims to better represent the organization's mission of social change through technology while providing an improved user experience for visitors, volunteers, and donors.
+
+This project provided practical experience in analyzing legacy codebases, designing modern architectures, and implementing full website redesigns using contemporary frontend technologies.
+
+1.2 Problem Statement
+The existing Code for Change Nepal website presented several challenges that necessitated a complete redesign:
+
+- Outdated Technology Stack: The website was built with static HTML, making content updates difficult and requiring technical expertise for even minor changes.
+- Poor Maintainability: Lack of component reusability led to code duplication and inconsistent implementations across pages.
+- Limited Interactivity: Minimal JavaScript functionality resulted in a static user experience with limited engagement opportunities.
+- Non-Responsive Design: The website did not adapt well to mobile devices, alienating a significant portion of potential visitors.
+- Slow Performance: Unoptimized assets and inefficient code structure resulted in slow loading times and poor user experience.
+- Inconsistent Design: Visual inconsistencies across pages undermined the organization's professional image.
+- Difficult Content Management: Adding new projects, events, or updates required manual HTML editing, limiting the organization's ability to keep content current.
+- Poor SEO Structure: The static nature limited opportunities for search engine optimization and content discovery.
+
+1.3 Objectives
+The primary objectives of this frontend redesign project were:
+
+- To analyze the existing HTML-based website and identify areas for improvement in structure, design, and functionality.
+- To design and implement a modern, component-based architecture using ReactJS for improved maintainability and scalability.
+- To create a responsive design system that provides optimal user experience across all device types and screen sizes.
+- To implement interactive features and dynamic content rendering to enhance user engagement.
+- To optimize website performance through code splitting, asset optimization, and efficient rendering techniques.
+- To improve the visual design and user interface while maintaining alignment with the organization's mission and branding.
+- To implement a structured content management approach that allows for easier updates and additions.
+- To enhance accessibility features ensuring the website is usable by people with disabilities.
+- To implement proper SEO structures and metadata management for improved online visibility.
+
+1.4 Scope and Limitations
+Scope:
+- Complete frontend redesign and development using ReactJS.
+- Migration of all existing content from HTML to React components.
+- Implementation of responsive design for mobile, tablet, and desktop devices.
+- Development of reusable component library for consistent UI implementation.
+- Integration of interactive features (image galleries, event calendars, donation forms).
+- Performance optimization including image optimization, code splitting, and lazy loading.
+- Implementation of client-side routing for seamless navigation.
+- Basic SEO implementation with proper metadata and semantic HTML.
+- Deployment to production hosting environment.
+
+Limitations:
+- Backend development for content management system was beyond scope; content remains statically managed.
+- User authentication and membership features were not implemented in this phase.
+- Advanced features like real-time chat, video streaming, or complex data visualizations were not included.
+- The project focused on frontend modernization only; backend API integration was limited to mock data.
+- Multilingual support was planned but not implemented in the initial release.
+- Advanced analytics integration beyond basic Google Analytics was not included.
+
+1.5 Report Organization
+This report is organized into four main chapters:
+- Chapter 1 introduces the project context, defines the problem, states objectives, and outlines scope.
+- Chapter 2 provides background about Sajilo Digital Pvt. Ltd. and reviews relevant technical literature.
+- Chapter 3 details internship activities, including roles, weekly progress, and technical implementation.
+- Chapter 4 concludes the report and summarizes learning outcomes.
+
+Chapter 2: Organization Details and Literature Review
+
+2.1 Introduction to the Organization
+Sajilo Digital Pvt. Ltd. is a premier digital solutions provider based in Bhairahawa, Nepal, specializing in custom software development, web applications, and digital transformation services. The company emphasizes using modern technologies and agile methodologies to deliver scalable, user-centered solutions for diverse business needs across various sectors including non-profit organizations, e-commerce, and enterprise solutions.
+
+2.2 Organizational Hierarchy
+The company maintains a collaborative structure:
+- Leadership Team: Sets strategic direction and oversees business operations.
+- Project Management: Handles client communication, requirement analysis, and project timelines.
+- Development Department: Includes specialized teams for frontend, backend, full-stack, and mobile development.
+- UI/UX Design Team: Creates user-centered designs and interfaces.
+- Quality Assurance: Ensures product quality through systematic testing.
+- Internship Program: Integrates students into development teams with mentor guidance.
+
+2.3 Working Domains of the Organization
+- Custom Web Application Development
+- Website Redesign and Modernization
+- E-commerce and Non-profit Platforms
+- Mobile Application Development
+- UI/UX Design Services
+- Digital Marketing and SEO
+
+2.4 Description of the Intern Department/Unit
+As a Frontend Developer Intern, I was integrated into the web development team working on client projects. The department follows agile development practices with daily stand-ups, sprint planning, and code reviews. Interns participate in the complete frontend development lifecycle—from requirement analysis and design implementation to testing and deployment. This comprehensive approach provides exposure to industry practices and collaborative development workflows.
+
+Table 2.1: Internship Duration
+Start Date: 11/17/2025
+Hours: 10:00 AM to 6:00 PM
+Working Days: Sunday to Friday
+Position: Frontend Developer (ReactJS)
+Supervisor: Mr. Suraj Pandey
+Mentor: Mr. Shailesh Mishra
+
+2.5 Literature Review / Related Study
+The modernization of the Code for Change Nepal website was informed by contemporary frontend development practices:
+
+- ReactJS and Component Architecture: Resources like "React Design Patterns and Best Practices" by Carlos Santana Roldán (2019) guided the implementation of reusable, maintainable component structures, emphasizing separation of concerns and single responsibility principle.
+
+- Legacy Code Modernization: Research on "Modernizing Legacy Systems" by Robert C. Seacord (2003) informed the approach to analyzing existing HTML structures and developing migration strategies that minimize disruption while maximizing benefits.
+
+- Responsive Web Design: Principles from Ethan Marcotte's foundational work (2011) were applied, utilizing fluid grids, flexible images, and CSS media queries to ensure accessibility across all screen sizes.
+
+- Performance Optimization: Studies from Google's Web Vitals initiative and "High Performance Web Sites" by Steve Souders (2007) informed techniques for minimizing load times through asset optimization, code splitting, and efficient rendering.
+
+- Accessibility Standards: WCAG 2.1 guidelines and "Inclusive Design Patterns" by Heydon Pickering (2016) influenced implementation decisions to ensure the website is usable by people with diverse abilities.
+
+- SEO Best Practices: Current search engine optimization guidelines from Google's Webmaster Central informed implementation of semantic HTML, metadata, and site structure improvements.
+
+Chapter 3: Internship Activities
+
+3.1 Roles and Responsibilities
+As a Frontend Developer Intern, my responsibilities focused on the complete redesign and modernization process:
+
+- Legacy Code Analysis: Analyzing the existing HTML-based website structure, identifying reusable patterns, and documenting technical debt.
+- Component Architecture Design: Designing a modular component structure for the React application, identifying reusable UI components and their relationships.
+- React Component Development: Building reusable React components following atomic design principles (atoms, molecules, organisms, templates, pages).
+- Responsive Design Implementation: Creating responsive layouts using CSS Grid, Flexbox, and media queries with a mobile-first approach.
+- State Management: Implementing application state management using React Hooks (useState, useEffect, useContext) for interactive features.
+- Client-Side Routing: Implementing navigation with React Router for seamless single-page application experience.
+- Performance Optimization: Optimizing images, implementing code splitting, lazy loading, and other performance improvements.
+- Accessibility Implementation: Ensuring the website meets WCAG 2.1 accessibility standards through semantic HTML, ARIA attributes, and keyboard navigation.
+- SEO Implementation: Configuring proper metadata, semantic HTML structure, and SEO-friendly URLs.
+- Content Migration: Migrating existing content from HTML files to React components while improving structure and presentation.
+- Interactive Features Development: Implementing interactive elements like image galleries, event calendars, donation forms, and animated transitions.
+- Testing and Quality Assurance: Conducting cross-browser testing, responsive testing, and accessibility testing.
+- Deployment: Configuring and deploying the React application to production hosting environment.
+- Documentation: Creating component documentation, style guides, and development guidelines.
+
+3.2 Weekly Log
+A detailed account of weekly activities, responsibilities, and learnings:
+
+Weekly Internship Log
+Name: Bijay Kumar Chaudhary
+Project: Code for Change Nepal Website Redesign
+Week No: 1
+Date: 11/17/2025 - 11/23/2025
+Responsibilities: Project initiation and legacy code analysis.
+Activities: Conducted comprehensive analysis of existing HTML website. Documented structure, components, and content. Identified pain points and improvement opportunities. Set up development environment and React project structure.
+Observation: Thorough analysis of existing systems reveals hidden patterns and informs better architectural decisions.
+Mentor's Approval: [Signature]
+
+Week No: 2
+Date: 11/24/2025 - 11/30/2025
+Responsibilities: Component architecture and design system planning.
+Activities: Designed component hierarchy and file structure. Created design tokens (colors, typography, spacing). Developed initial style guide. Planned migration strategy from HTML to React components.
+Observation: Investing time in planning component architecture significantly accelerates development and ensures consistency.
+Mentor's Approval: [Signature]
+
+Week No: 3
+Date: 12/01/2025 - 12/07/2025
+Responsibilities: Foundation components development.
+Activities: Built foundational layout components (Header, Footer, Navigation, Layout). Created base UI components (Button, Card, Section, Container). Implemented responsive grid system. Set up CSS architecture with CSS Modules.
+Observation: A robust foundation of reusable components is crucial for efficient development of complex interfaces.
+Mentor's Approval: [Signature]
+
+Week No: 4
+Date: 12/08/2025 - 12/14/2025
+Responsibilities: Page components and routing implementation.
+Activities: Developed main page components (Home, About, Projects, Events). Implemented client-side routing with React Router. Created page templates and layouts. Began content migration from HTML to React components.
+Observation: Component-based architecture makes content migration systematic and manageable.
+Mentor's Approval: [Signature]
+
+Week No: 5
+Date: 12/15/2025 - 12/21/2025
+Responsibilities: Interactive features and state management.
+Activities: Implemented interactive image galleries for project showcases. Added event calendar with filtering. Created donation form with validation. Implemented state management for interactive elements using React Hooks.
+Observation: Interactive features significantly enhance user engagement and convey professionalism.
+Mentor's Approval: [Signature]
+
+Week No: 6
+Date: 12/22/2025 - 12/28/2025
+Responsibilities: Responsive design refinement.
+Activities: Conducted comprehensive responsive testing across devices. Refined breakpoints and adaptive layouts. Optimized touch interactions for mobile devices. Fixed responsive design issues and inconsistencies.
+Observation: Mobile responsiveness is non-negotiable in modern web development and requires continuous testing.
+Mentor's Approval: [Signature]
+
+Week No: 7
+Date: 12/29/2025 - 01/04/2026
+Responsibilities: Performance optimization.
+Activities: Optimized all images using modern formats and compression. Implemented code splitting and lazy loading for routes. Reduced JavaScript bundle size. Added loading states and performance monitoring.
+Observation: Performance optimization has a direct impact on user retention and search engine rankings.
+Mentor's Approval: [Signature]
+
+Week No: 8
+Date: 01/05/2026 - 01/11/2026
+Responsibilities: Accessibility and SEO implementation.
+Activities: Implemented semantic HTML structure throughout. Added ARIA attributes and keyboard navigation. Configured meta tags and structured data for SEO. Conducted accessibility testing with screen readers.
+Observation: Accessibility and SEO are foundational aspects that should be integrated from the beginning.
+Mentor's Approval: [Signature]
+
+Week No: 9
+Date: 01/12/2026 - 01/18/2026
+Responsibilities: Final content migration and polishing.
+Activities: Completed migration of all remaining content. Applied final styling polish and animations. Conducted user acceptance testing with stakeholders. Fixed remaining bugs and issues.
+Observation: Attention to detail in the final stages significantly elevates perceived quality.
+Mentor's Approval: [Signature]
+
+Week No: 10
+Date: 01/19/2026 - 01/25/2026
+Responsibilities: Deployment and documentation.
+Activities: Deployed React application to production hosting. Configured custom domain and SSL. Created comprehensive documentation for components and styles. Prepared project handover materials and final report.
+Observation: Proper deployment and documentation ensure the sustainability and maintainability of the project.
+Mentor's Approval: [Signature]
+
+3.3 Description of the Project(s) Involved During Internship
+Primary Project: Code for Change Nepal Website Redesign
+A complete modernization project migrating a static HTML website to a dynamic ReactJS application for a non-profit organization.
+
+Technical Specifications:
+- Frontend Framework: React 18 with functional components and hooks
+- Routing: React Router v6 for client-side navigation
+- State Management: React Hooks (useState, useEffect, useContext) for local and global state
+- Styling: CSS Modules for component-scoped styles with custom design system
+- Build Tool: Create React App with custom configuration
+- Performance: Code splitting, lazy loading, image optimization
+- Deployment: Vercel hosting platform
+
+Key Features Implemented:
+- Component-Based Architecture: 40+ reusable React components organized by atomic design principles
+- Responsive Design System: Fully responsive layouts with mobile-first approach
+- Interactive Elements: Image galleries, event calendars, donation forms with validation
+- Performance Optimized: 85+ Lighthouse performance score with optimized assets
+- Accessibility Compliant: WCAG 2.1 AA compliance with semantic HTML and ARIA attributes
+- SEO Friendly: Proper metadata, structured data, and semantic markup
+- Modern Design: Clean, professional interface aligning with non-profit branding
+- Easy Maintenance: Modular structure enabling easy updates and additions
+
+Live URL: http://codeforchangenepal.com/
+
+3.4 Tasks / Activities Performed
+- Conducted comprehensive analysis of legacy HTML codebase
+- Designed and implemented component-based architecture with ReactJS
+- Developed reusable component library with 40+ components
+- Created responsive design system with mobile-first approach
+- Implemented client-side routing for seamless navigation
+- Migrated all content from static HTML to React components
+- Optimized website performance through various techniques
+- Implemented accessibility features for WCAG 2.1 compliance
+- Configured SEO best practices and metadata management
+- Developed interactive features including galleries and forms
+- Conducted comprehensive testing across devices and browsers
+- Deployed application to production hosting environment
+- Created detailed documentation for components and styles
+- Participated in code reviews and implemented feedback
+- Collaborated with mentor to refine implementation details
+
+Chapter 4: Conclusion and Learning Outcomes
+
+4.1 Conclusion
+The 10-week internship at Sajilo Digital Pvt. Ltd. provided an immersive experience in modern frontend development through the complete redesign and modernization of the Code for Change Nepal website. This project successfully transformed a static HTML-based website into a dynamic, performant ReactJS application, demonstrating practical application of modern web development principles to solve real-world problems.
+
+The migration from legacy HTML to ReactJS provided the organization with a more maintainable, scalable, and engaging digital presence while improving technical metrics across performance, accessibility, and SEO. The experience of analyzing existing systems, designing modern architectures, and implementing complete redesigns strengthened my understanding of the software modernization process and component-based development.
+
+This internship effectively bridged theoretical knowledge with practical implementation, providing clarity on architectural decisions, performance considerations, and user experience principles that are critical in professional web development.
+
+4.2 Learning Outcomes
+
+Technical Skills:
+- ReactJS Mastery: Gained extensive experience with React hooks, component lifecycle, context API, and modern React patterns.
+- Legacy System Analysis: Developed skills in analyzing existing codebases, identifying improvement opportunities, and planning migration strategies.
+- Component Architecture Design: Learned to design and implement scalable component architectures following atomic design principles.
+- Responsive Web Development: Mastered responsive design techniques using CSS Grid, Flexbox, and media queries with mobile-first approach.
+- Performance Optimization: Applied techniques for improving Core Web Vitals including image optimization, code splitting, and bundle size reduction.
+- Accessibility Implementation: Gained practical experience implementing WCAG 2.1 standards with semantic HTML and ARIA attributes.
+- SEO Best Practices: Learned and implemented modern SEO techniques for React applications.
+- Deployment and DevOps: Gained experience with modern deployment workflows and hosting platforms.
+
+Professional Skills:
+- Project Planning: Developed ability to plan and execute complex migration projects with multiple phases.
+- Problem-Solving: Enhanced debugging and problem-solving skills across the complete modernization process.
+- Client Communication: Improved ability to understand client needs and translate them into technical requirements.
+- Documentation: Created comprehensive technical documentation for components, styles, and deployment procedures.
+- Quality Assurance: Developed systematic testing approaches for responsive design, accessibility, and cross-browser compatibility.
+- Time Management: Learned to manage complex projects with multiple components and deadlines effectively.
+
+The internship has equipped me with both the technical depth and professional mindset required for a career in frontend web development, providing confidence to tackle complex web projects in professional settings.
+
+References
+
+Marcotte, E. (2011). Responsive web design. A Book Apart.
+
+Pickering, H. (2016). Inclusive design patterns. Smashing Magazine.
+
+React Documentation. (n.d.). Retrieved from https://reactjs.org/docs/getting-started.html
+
+Roldán, C. S. (2019). React design patterns and best practices. Packt Publishing.
+
+Seacord, R. C. (2003). Modernizing legacy systems. Addison-Wesley Professional.
+
+Souders, S. (2007). High performance web sites. O'Reilly Media.
+
+Web Content Accessibility Guidelines (WCAG) 2.1. (2018). W3C Recommendation.
+
+Google Developers. (2023). Web Vitals. https://web.dev/vitals/
+
+Appendix
+
+A1: Website Screenshots
+[Images to be inserted: Original vs Redesigned Comparison, Homepage, Projects Page, Mobile View, Interactive Elements]
+
+A2: Component Library Documentation
+Component Count: 42 reusable components
+Organization: Atoms (15), Molecules (12), Organisms (8), Templates (4), Pages (3)
+Example: <ProjectCard title="..." description="..." image="..." />
+
+A3: Performance Metrics Comparison
+Metric | Before | After | Improvement
+--- | --- | --- | ---
+Performance Score | 42 | 87 | +45
+Accessibility Score | 65 | 92 | +27
+Best Practices | 71 | 98 | +27
+SEO Score | 58 | 95 | +37
+Load Time | 4.8s | 1.2s | -75%
+
+A4: Deployment Information
+Live URL: http://codeforchangenepal.com/
+Repository: [GitHub repository link]
+Hosting Platform: Vercel
+Build Tool: Create React App
+Deployment: Continuous deployment from main branch
+
+A5: Style Guide Documentation
+Colors: Primary (#2E5AAC), Secondary (#4CAF50), Neutral (#333, #666, #FFF)
+Typography: Inter (Headers), Open Sans (Body)
+Spacing: 4px base unit, 8px, 16px, 24px, 32px, 48px, 64px
+Breakpoints: Mobile: 320px, Tablet: 768px, Desktop: 1024px

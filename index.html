@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Reports Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-file-alt"></i> Internship Reports Viewer</h1>
+            <p class="subtitle">Browse and copy text from five internship reports with ease. Each report contains
+                details about the internship experience, projects, and learning outcomes.</p>
+        </header>
+
+        <div class="reports-tabs">
+            <button class="tab-btn active" data-report="arun">
+                <i class="fas fa-user-graduate"></i> Arun Neupane
+            </button>
+            <button class="tab-btn" data-report="dattey">
+                <i class="fas fa-laptop-code"></i> Ashish GM
+            </button>
+            <button class="tab-btn" data-report="gayjay">
+                <i class="fas fa-code"></i> Bijay Kumar Chaudhary
+            </button>
+            <button class="tab-btn" data-report="goban">
+                <i class="fas fa-server"></i> Bal Gobind Chaudhary
+            </button>
+            <button class="tab-btn" data-report="sunil">
+                <i class="fas fa-bug"></i> Sunil Paudyal
+            </button>
+        </div>
+
+        <div class="content-container">
+            <div class="report-content">
+                <h2>
+                    <span id="report-title">Arun Neupane - Next.js Website Development</span>
+                    <button class="copy-all-btn" id="copy-all-btn">
+                        <i class="far fa-copy"></i> Copy All
+                    </button>
+                </h2>
+
+                <div id="report-sections">
+                    <!-- Report sections will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <div class="stats-panel">
+                <h3><i class="fas fa-chart-bar"></i> Report Statistics</h3>
+                <div class="stat-item">
+                    <span class="stat-label">Student Name:</span>
+                    <span class="stat-value" id="stat-name">Arun Neupane</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Project:</span>
+                    <span class="stat-value" id="stat-project">Sajilo Digital Website</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Technology:</span>
+                    <span class="stat-value" id="stat-tech">Next.js, React</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Duration:</span>
+                    <span class="stat-value" id="stat-duration">10 weeks</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Sections:</span>
+                    <span class="stat-value" id="stat-sections">10</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Word Count:</span>
+                    <span class="stat-value" id="stat-words">~2,500</span>
+                </div>
+
+                <div class="student-highlight">
+                    <h4><i class="fas fa-star"></i> Key Focus</h4>
+                    <p id="highlight-text">Frontend development of company website using Next.js framework with SSR/SSG
+                        for optimal performance.</p>
+
+                    <div class="tech-tags" id="tech-tags">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">SSR</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="container2"></div>
+
+        <footer>
+            <p>Internship Reports Viewer • Tribhuvan University, Bhairahawa Multiple Campus • BSc.CSIT Program</p>
+            <p>Use the copy buttons to easily copy any section or the entire report.</p>
+        </footer>
+    </div>
+
+    <div class="copy-notification" id="copy-notification">
+        <i class="fas fa-check-circle"></i>
+        <span>Text copied to clipboard!</span>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./view.js"></script>
+</body>
+
+</html>
