@@ -349,21 +349,111 @@ Key Features Implemented:
 Live URL: http://codeforchangenepal.com/
 
 3.4 Tasks / Activities Performed
-- Conducted comprehensive analysis of legacy HTML codebase
-- Designed and implemented component-based architecture with ReactJS
-- Developed reusable component library with 40+ components
-- Created responsive design system with mobile-first approach
-- Implemented client-side routing for seamless navigation
-- Migrated all content from static HTML to React components
-- Optimized website performance through various techniques
-- Implemented accessibility features for WCAG 2.1 compliance
-- Configured SEO best practices and metadata management
-- Developed interactive features including galleries and forms
-- Conducted comprehensive testing across devices and browsers
-- Deployed application to production hosting environment
-- Created detailed documentation for components and styles
-- Participated in code reviews and implemented feedback
-- Collaborated with mentor to refine implementation details
+
+This section provides a detailed breakdown of the technical and professional activities carried out during the 10-week internship. Each activity is elaborated with the context, approach, challenges encountered, and solutions implemented.
+
+3.4.1 Project Setup and Environment Configuration
+
+At the outset of the internship, I established a robust development environment for the Sajilo Digital website. This involved:
+
+-  Selecting the Tech Stack:  After evaluating options, we chose Next.js 14 with React 18 for its hybrid rendering capabilities (SSR/SSG), built‑in performance optimizations, and excellent developer experience. Vercel was selected for deployment due to its seamless integration with Next.js.
+-  Repository Initialization:  I created a Git repository on GitHub, setting up a branching strategy with `main` for production, `develop` for integration, and feature branches for each new component or page. This ensured clean version control and facilitated team collaboration.
+-  Tooling Configuration:  I configured ESLint and Prettier to enforce consistent code style and catch potential errors early. Custom rules were added to align with the company’s coding standards.
+-  Environment Variables:  I set up `.env.local` for development secrets (e.g., API keys, contact form endpoints) and documented the required variables in a `.env.example` file.
+-  Development Scripts:  I enhanced the `package.json` scripts with commands for running the dev server, building for production, and running lint checks. I also integrated `next-optimized-images` to handle image optimization during builds.
+
+ Challenges and Solutions:  Initially, there were conflicts between ESLint and Prettier that caused inconsistent formatting. I resolved this by installing the `eslint-config-prettier` package and adjusting the `.eslintrc` configuration to defer stylistic rules to Prettier.
+
+3.4.2 Component Architecture and Design System Implementation
+
+To ensure maintainability and consistency, I designed a modular component architecture following the atomic design principle:
+
+-  Atoms:  Created basic building blocks such as `Button`, `Input`, `Icon`, `Heading`, `Text`, and `Container`. These components received props for customization (size, variant, color) and included proper ARIA labels for accessibility.
+-  Molecules:  Combined atoms to form functional groups like `NavLink`, `SearchBar`, `Card`, `ServiceCard`, and `TestimonialCard`. For example, the `ServiceCard` accepts an icon, title, description, and a link, rendering a consistent card layout throughout the services section.
+-  Organisms:  Developed larger sections that combine molecules, such as `HeroSection`, `FeaturesGrid`, `ProjectShowcase`, and `ContactForm`. These organisms handled data fetching (via props) and layout logic.
+-  Templates and Pages:  Created page templates (e.g., `HomeTemplate`, `ServicesTemplate`) that arranged organisms into a page layout. Each Next.js page imported the corresponding template and passed in the required data.
+
+ Documentation:  I documented each component using JSDoc comments, specifying props, default values, and usage examples. This made it easier for other team members to understand and reuse components.
+
+ Challenges and Solutions:  One challenge was ensuring that components remained truly reusable without becoming overly complex. I solved this by applying the single responsibility principle—each component does one thing well—and by using composition over configuration. For instance, the `Button` component accepts an `as` prop to render as a `<button>` or `<a>` element, maintaining flexibility.
+
+3.4.3 Responsive Layout Development
+
+A key requirement was a fully responsive design that works flawlessly on desktops, tablets, and mobile devices. I adopted a mobile‑first approach:
+
+-  CSS Methodology:  I used CSS Modules to scope styles to individual components, preventing global conflicts. A global `globals.css` defined CSS variables for colors, typography, spacing, and breakpoints.
+-  Breakpoints:  Based on common device sizes, I defined breakpoints: 480px (mobile), 768px (tablet), 1024px (desktop), and 1440px (large desktop). Media queries were used to adjust layouts, font sizes, and spacing accordingly.
+-  Layout Components:  I created layout components like `Container`, `Grid`, and `Flex` that encapsulate responsive behaviors. The `Grid` component, for example, uses CSS Grid and accepts props for columns, gaps, and responsiveness (e.g., `gridTemplateColumns={{ base: '1fr', md: '1fr 1fr', lg: '1fr 1fr 1fr' }}`).
+-  Navigation:  The main navigation was implemented as a `Navbar` component that collapses into a hamburger menu on mobile. I used `useState` to control the mobile menu’s open/close state and added a smooth transition using CSS transforms.
+
+ Testing:  I tested the responsiveness using browser dev tools’ device emulation and physical devices (iPhone, iPad, various Android phones). I made extensive use of Chrome DevTools’ responsive design mode to iterate quickly.
+
+ Challenges and Solutions:  Handling complex layouts like the portfolio grid that needed to adapt from 3 columns on desktop to 2 on tablet to 1 on mobile required careful planning. I solved this by using CSS Grid with `repeat(auto-fit, minmax(280px, 1fr))` combined with media queries to fine‑tune the column count for optimal image sizing.
+
+3.4.4 Data Fetching and State Management
+
+Leveraging Next.js data fetching capabilities was central to the project:
+
+-  Static Generation (SSG):  For blog posts and portfolio items, I used `getStaticProps` to fetch content from local markdown files at build time. I implemented a utility to parse frontmatter and content using `gray-matter`. This produced static HTML files that load extremely fast.
+-  Server‑Side Rendering (SSR):  For pages requiring real‑time data (e.g., a live service status or dynamic content), I used `getServerSideProps`. This was applied to the contact page to pre‑populate a location map based on IP geolocation (a third‑party API).
+-  Client‑Side State:  For interactive elements like the contact form, I used React hooks (`useState`, `useEffect`) to manage form state, validation, and submission status. I also used `useContext` to share a theme preference across the site (light/dark mode) without prop‑drilling.
+-  API Integration:  I set up API routes inside Next.js (`/api/contact`) to handle form submissions and forward them to a backend service. This kept sensitive keys secure and allowed for server‑side validation.
+
+ Challenges and Solutions:  One challenge was ensuring that dynamic pages (like blog posts) were correctly routed and displayed. Next.js dynamic routing with `[slug].js` was used, but we needed to generate a list of all slugs at build time. I implemented `getStaticPaths` to return all possible slugs, and `getStaticProps` to fetch the content for a specific slug.
+
+3.4.5 Performance Optimization
+
+Performance was a top priority to achieve high Lighthouse scores and a fast user experience:
+
+-  Image Optimization:  All images were served via Next.js’s `<Image>` component, which automatically optimizes formats (WebP), resizes, and lazy loads. I set appropriate `sizes` attributes to serve responsive images.
+-  Code Splitting and Lazy Loading:  Next.js automatically splits code by page, but I also used dynamic imports (`next/dynamic`) for components that are not needed immediately, such as the contact form and heavy animations. I added loading skeletons to improve perceived performance.
+-  Bundle Analysis:  I used `@next/bundle-analyzer` to inspect the JavaScript bundle and identified that a large charting library was unnecessarily included. I replaced it with a lightweight alternative.
+-  Font Optimization:  I hosted custom fonts locally using `next/font` to reduce external requests and improve privacy. I also used `font-display: swap` to avoid layout shifts.
+-  Caching Headers:  I configured caching headers in the `next.config.js` for static assets (e.g., images, fonts) to leverage browser caching.
+
+ Results:  After optimization, Lighthouse scores consistently exceeded 90 for performance, accessibility, best practices, and SEO.
+
+3.4.6 Cross‑Browser and Accessibility Testing
+
+To ensure a consistent experience across all major browsers and devices, I performed extensive testing:
+
+-  Browser Testing:  I manually tested on Chrome, Firefox, Safari, and Edge on Windows and macOS. I used BrowserStack to test on older browser versions.
+-  Accessibility Testing:  I used the WAVE tool and Lighthouse accessibility audits to identify issues. I then implemented fixes such as adding `alt` attributes to images, ensuring proper heading hierarchy, and adding `aria-label` to interactive elements.
+-  Keyboard Navigation:  I tested the entire site using only keyboard navigation, ensuring that all interactive elements are focusable and that focus order is logical. I added `:focus-visible` styles for better visual feedback.
+
+ Challenges and Solutions:  Safari had a specific issue with CSS Grid layout for the portfolio grid. I discovered that Safari required `-webkit-` prefixes for certain grid properties. I used PostCSS with Autoprefixer to automatically add prefixes during the build process.
+
+3.4.7 Deployment and Continuous Integration
+
+The final phase involved deploying the website to production:
+
+-  Vercel Setup:  I connected the GitHub repository to Vercel, configuring automatic deployments for the `main` branch. I set up preview deployments for pull requests, allowing the team to review changes before merging.
+-  Custom Domain and SSL:  I configured the custom domain `sajilodigital.com.np` through Vercel’s domain management, which automatically provisions an SSL certificate.
+-  Environment Variables:  I added all required environment variables to Vercel’s project settings, ensuring they were available in the production environment.
+-  Monitoring:  I enabled Vercel Analytics to track performance metrics and error logging to quickly identify any issues after launch.
+
+3.4.8 Auxiliary Projects
+
+In addition to the main website, I completed three auxiliary projects that broadened my skills:
+
+-  Python WiFi Home Server:  I built a simple HTTP server using Python’s `http.server` module and extended it with custom endpoints using `Flask`. This project gave me hands‑on experience with backend concepts, socket programming, and network configurations.
+-  Color Picker Web App:  I developed a tool using React that allows users to select colors and copy hex/rgb/hsl values. I practiced managing state with `useState` and integrating with the Clipboard API.
+-  Quiz Web Application:  I created a quiz app with multiple choice questions, a timer, and scoring. I used the Context API to manage global state (current question, score, timer) and React Router for navigation between the quiz and results page. This deepened my understanding of complex state management.
+
+3.4.9 Documentation and Knowledge Transfer
+
+Throughout the internship, I maintained comprehensive documentation:
+
+-  Component Documentation:  I created a Storybook instance for the component library, documenting each component’s props, usage, and examples.
+-  Project Setup Guide:  I wrote a `README.md` with detailed instructions on setting up the project, configuring environment variables, and running the development server.
+-  Deployment Notes:  I documented the deployment process, including Vercel configuration, environment variables, and post‑deployment verification steps.
+-  Code Comments:  I ensured that all complex logic was accompanied by clear comments explaining the reasoning behind the implementation.
+
+3.4.10 Collaboration and Communication
+
+I actively participated in daily stand‑up meetings, where I reported progress, highlighted blockers, and coordinated with the mentor. I used Slack for real‑time communication and GitHub issues to track tasks and bugs. During code reviews, I provided constructive feedback on peers’ pull requests and incorporated feedback into my own work. This collaborative environment taught me the importance of clear communication and teamwork in software development.
+
+In summary, the 10‑week internship involved a wide range of activities that collectively contributed to the successful delivery of a production‑grade website and significantly enhanced my technical and professional skills.
 
 Chapter 4: Conclusion and Learning Outcomes
 
